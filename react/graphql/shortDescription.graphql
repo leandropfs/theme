@@ -1,0 +1,5 @@
+query shortDescription($slug: String) {
+  product(slug: $slug) {
+    shortDescription
+  }
+}

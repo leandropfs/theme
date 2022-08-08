@@ -1,0 +1,24 @@
+.container--layout-option {
+  margin-left: 0.3em;
+}
+
+.paragraph--layout-option {
+  margin: 0;
+}
+
+.paragraph--summarySpecificationBullet {
+  margin: 0;
+  line-height: initial;
+  font-size: 1.25rem;
+  line-height: 1.15rem;
+}
+
+/* Description */
+.heading--search-description{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.paragraph--search-description{
+  font-size: .9rem;
+}

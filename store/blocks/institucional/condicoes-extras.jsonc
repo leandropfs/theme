@@ -1,0 +1,99 @@
+{
+  "store.custom#condicoes-extras": {
+    "blocks": [
+      "flex-layout.row#condicoes-extras-content"
+    ]
+  },
+
+  "flex-layout.row#condicoes-extras-content": {
+    "children": [
+      "flex-layout.col#condicoes-extras-content"
+    ]
+  },
+
+  "flex-layout.col#condicoes-extras-content": {
+    "children": [
+      "rich-text#condicoes-extras-title",
+      "flex-layout.col#condicoes-extras-content-description"
+    ]
+  },
+
+  "rich-text#condicoes-extras-title": {
+    "props": {
+      "text": "# Condições Extras",
+      "blockClass": "heading"
+    }
+  },
+
+  "flex-layout.col#condicoes-extras-content-description": {
+    "props":{
+      "blockClass": "content-description"
+    },
+    "children":[
+      "flex-layout.row#condicoes-extras-content-description-text"
+    ]
+  },
+
+  "flex-layout.row#condicoes-extras-content-description-text": {
+    "children": [
+      "flex-layout.col#condicoes-extras-content-frete-gratis",
+      "flex-layout.col#condicoes-extras-content-entrega-expressa"
+    ]
+  },
+
+  //Frete Grátis
+
+  "flex-layout.col#condicoes-extras-content-frete-gratis": {
+    "children":[
+      "rich-text#condicoes-extras-h2-2",
+      "rich-text#condicoes-extras-text-2"
+    ],
+    "props":{
+      "blockClass": "condicoes-extras-frete-gratis"
+    }
+  },
+
+  "rich-text#condicoes-extras-h2-2": {
+    "props": {
+      "text": "## **Frete Grátis**",
+      "blockClass": "level2-condicoes-extras",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#condicoes-extras-text-2": {
+    "props":{
+      "text": "### **Rio Grande do Sul** \n #### Compras acima de R$ 100,00 para as Cidades: \n \n - Canoas \n - Cachoeirinha \n - Esteio \n - Gravataí \n - Sapucaia do Sul \n - Campo Bom \n - Novo Hamburgo \n - Sapiranga \n - Estância Velha \n - Parobé \n - Dois Irmãos \n - Nova Hartz \n - Ivoti \n - Taquara \n *Frete grátis para demais localidades do Rio Grande do Sul nas compras acima de R$ 300,00. \n \n ### **Outros Estados** \n - Compras acima de R$ 500,00 - Santa Catarina e Paraná \n - Compras acima de R$ 800,00 - Regiões Sudeste e Centro-Oeste \n - Compras acima de R$ 1.300,00 - Regiões Norte e Nordeste \n *Exceto para pedidos exclusivos de luvas ou toxina butolínica. Neste caso o frete será cobrado do cliente caso seja fora da área de entrega com frota própria.",
+      "blockClass": "condicoes-extras-text"
+    }
+  },
+
+  //Entrega Expressa
+
+  "flex-layout.col#condicoes-extras-content-entrega-expressa": {
+    "children":[
+      "rich-text#condicoes-extras-h2-1",
+      "rich-text#condicoes-extras-text-1"
+    ],
+    "props":{
+      "blockClass": "condicoes-extras-entrega-expressa",
+      "preventVerticalStretch": "true"
+    }
+  },
+
+  "rich-text#condicoes-extras-h2-1": {
+    "props": {
+      "text": "## **Entrega Expressa em até 24h para compras acima de R$ 100,00**",
+      "blockClass": "level2-condicoes-extras",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "rich-text#condicoes-extras-text-1": {
+    "props": {
+      "text": "### **Cidades Atendidas** \n \n - Porto Alegre \n - Novo Hamburgo \n - São Leopoldo \n - Canoas \n - Sapucaia \n - Esteio \n *Exceto sábados, domingos e feriados.",
+      "blockClass": "condicoes-extras-text"
+    }
+  }
+}

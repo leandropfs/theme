@@ -1,0 +1,69 @@
+.sealProduct,
+.sealCollection{}
+
+.sealTooltip {
+    display: block;
+    font-size: .8rem;
+    color: #fff;
+    padding: .5rem;
+    width: 100%;
+    border-radius: var(--radius);
+    margin-top: .5rem;
+    text-align: left;
+    box-sizing: border-box;
+}
+.sealTooltip p{
+    display: block;
+    font-size: 1.2em;
+    margin: 0;
+}
+.sealTooltip small{
+    display: block;
+    font-size: .95em;
+    margin-top: .5rem;
+}
+
+.sealTitle {
+    display: block;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #fff;
+    border-radius: var(--radius);
+    padding: .15rem;
+    text-align: center;
+}
+
+.sealCollection .sealTooltip{
+    display: block;
+    position: absolute;
+    text-align: center;
+    bottom: calc(100% + 8px);
+    font-size: .8rem;
+    color: #fff;
+    padding: .5rem;
+    width: 100%;
+    border-radius: var(--radius);
+    opacity: 0;
+    transition: .2s;
+    box-sizing: border-box;
+}
+
+.sealCollection .sealTooltip::after{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-top-color: transparent;
+    border-style: solid;
+    border-width: 6px 8px 0;
+    border-top-color: inherit;
+}
+
+.sealCollection:hover .sealTooltip{
+    opacity: 1;
+}

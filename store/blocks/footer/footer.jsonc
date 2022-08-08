@@ -1,0 +1,295 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-content-top",
+      "flex-layout.row#footer-content-middle",
+      "flex-layout.row#footer-copyright"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-content-mobile"
+    ]
+  },
+  "flex-layout.row#footer-content-top": {
+    "children": [
+      "flex-layout.col#institucional",
+      "flex-layout.col#areaCliente",
+      "flex-layout.col#payment",
+      "flex-layout.col#sac"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "colJustify": "between",
+      "blockClass": "footer-content-top"
+    }
+  },
+
+  // Mobile
+  "flex-layout.row#footer-content-mobile": {
+    "children": [
+      "flex-layout.col#areaCliente",
+      "flex-layout.col#institucional-mobile",
+      "flex-layout.col#sac",
+      "flex-layout.col#payment",
+      "flex-layout.col#security",
+      "flex-layout.col#upnext",
+      "flex-layout.row#footer-copyright"
+    ]
+  },
+
+  // Institucional
+  "flex-layout.col#institucional": {
+    "children": [
+      "flex-layout.col#menu-institucional"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#institucional-mobile": {
+    "children": [
+      "flex-layout.col#menu-institucional"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#menu-institucional": {
+    "children": [
+      "rich-text#menuInstitucionalTitle",
+      "vtex.menu@2.x:menu#institucionais"
+    ],
+    "props": {
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#menuInstitucionalTitle": {
+    "props": {
+      "text": "## Institucional",
+      "blockClass": "footer-title"
+    }
+  },
+
+  // Área cliente
+  "flex-layout.col#areaCliente": {
+    "children": [
+      "flex-layout.col#menuAreaCliente"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#menuAreaCliente-mobile": {
+    "children": [
+      "flex-layout.col#menuAreaCliente"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#menuAreaCliente": {
+    "children": [
+      "rich-text#menuAreaClientelTitle",
+      "vtex.menu@2.x:menu#area-cliente"
+    ],
+    "props": {
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#menuAreaClientelTitle": {
+    "props": {
+      "text": "## Área do cliente",
+      "blockClass": "footer-title"
+    }
+  },
+
+  // Meios de pagamento
+  "flex-layout.col#payment": {
+    "children": [
+      "rich-text#paymentTitle",
+      "rich-text#paymentSeals",
+      "rich-text#paymentParcelamento"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#paymentTitle": {
+    "props": {
+      "text": "## Meios de pagamento",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#paymentSeals": {
+    "props": {
+      "text": "![Meios de pagamento](assets/footer/footer-meios-de-pagamento.png)",
+      "blockClass": "footer-img"
+    }
+  },
+  "rich-text#paymentParcelamento": {
+    "props": {
+      "text": "#### Em até 6x sem juros.\n #### 3% de desconto no boleto.\n exceto para Toxina e Ácido Hialurônico",
+      "blockClass": "footer-parcelamento"
+    }
+  },
+
+  // Atendimento
+  "flex-layout.col#sac": {
+    "children": [
+      "rich-text#atendimentoTitle",
+      "rich-text#atendimentoText",
+      "rich-text#atendimentoTitleTelevendas",
+      "rich-text#atendimentoPhone",
+      "rich-text#atendimentoTitleEmail",
+      "rich-text#atendimentoEmail",
+      "rich-text#atendimentoTitleWhatsapp",
+      "rich-text#atendimentoWhatsapp",
+      "rich-text#atendimentoHour"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "footer-sac",
+      "rowGap": 2
+    }
+  },
+  "rich-text#atendimentoTitle": {
+    "props": {
+      "text": "## Atendimento SAC",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#atendimentoText": {
+    "props": {
+      "text": "Dúvidas sobre produtos e\n serviço de entrega?",
+      "blockClass": "footer-text"
+    }
+  },
+  "rich-text#atendimentoTitleTelevendas": {
+    "props": {
+      "text": "## Televendas",
+      "blockClass": "footer-subTitle"
+    }
+  },
+  "rich-text#atendimentoPhone":{
+    "props": {
+      "text": "[![Telefone](assets/footer/icon-phone.svg) 0800 602 5400](tel:0800-602-5400)",
+      "blockClass": "footer-link"
+    }
+  },
+  "rich-text#atendimentoTitleWhatsapp": {
+    "props": {
+      "text": "## Whatsapp",
+      "blockClass": "footer-subTitle"
+    }
+  },
+  "rich-text#atendimentoWhatsapp":{
+    "props": {
+      "text": "[![Whatsapp](assets/footer/icon-whatsapp.svg) (51) 99480-8573](https://api.whatsapp.com/send?phone=5551994808573)",
+      "blockClass": "footer-link"
+    }
+  },
+  "rich-text#atendimentoHour":{
+    "props": {
+      "text": "Todos os dias das 8h às 18h.\n Exceto feriados.",
+      "blockClass": "footer-text"
+    }
+  },
+  "rich-text#atendimentoTitleEmail": {
+    "props": {
+      "text": "## Email",
+      "blockClass": "footer-subTitle"
+    }
+  },
+  "rich-text#atendimentoEmail":{
+    "props": {
+      "text": "![Telefone](assets/footer/icon-email.svg) faleconosco@dentalshop.com.br",
+      "blockClass": "footer-text"
+    }
+  },
+
+  // Segurança - UpNext
+  "flex-layout.row#footer-content-middle": {
+    "children": [
+      "flex-layout.col#security",
+      "flex-layout.col#upnext"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "colJustify": "between",
+      "blockClass": "footer-content-middle"
+    }
+  },
+
+  // Segurança
+  "flex-layout.col#security": {
+    "children": [
+      "rich-text#securityTitle",
+      "rich-text#securitySeals"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#securityTitle": {
+    "props": {
+      "text": "## Selos e Segurança",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#securitySeals": {
+    "props": {
+      "text": "[![Google Safe Browsing](assets/footer/google-safe-browsing.png)](https://transparencyreport.google.com/safe-browsing/search?url=https://www.dentalshop.com.br/) ![Let's Encrypt](assets/footer/lets-encrypt.png) [![Procon RS](assets/footer/procon-rs.png)](https://www.procon.rs.gov.br/inicial) [![Ebit](https://newimgebit-a.akamaihd.net/ebitBR/selo/img_94287.png)](https://www.ebit.com.br/94287)",
+      "blockClass": "footer-seals"
+    }
+  },
+
+  // UpNext
+  "flex-layout.col#upnext": {
+    "children": [
+      "rich-text#upnext"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#upnext": {
+    "props": {
+      "text": "[![UpNext](assets/footer/logo-upnext.svg)](https://agencia.upnext.com.br)",
+      "blockClass": "footer-img"
+    }
+  },
+
+  // Copyright
+  "flex-layout.row#footer-copyright": {
+    "children": [
+      "rich-text#footer-copyright"
+    ],
+    "props": {
+      "blockClass": "footer-copyright",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#footer-copyright": {
+    "props": {
+      "text": "Dentalshop Produtos Odontologicos LTDA | CNPJ 01.326.569/0001-04\n Somos um time apaixonado em ajudar os profissionais da odontologia e da saúde em geral a adquirirem os melhores materiais com as melhores condições do mercado. Por isso, optamos em não vender nossos produtos por atacado, proporcionando atender um maior número de clientes com nossas ofertas. As condições e preços aqui divulgadas são exclusivas para nosso Ecommerce e televendas para o dia de hoje, em caso de divergência de preços no site, o valor válido é o do carrinho de compras. Alguns preços podem sofrer alterações no decorrer do dia sem aviso prévio.\n As fotos aqui disponibilizadas são meramente ilustrativas, mas se você encontrou algo divergente da descrição, por favor nos comunique para que possamos rapidamente corrigir. Prezamos sempre pela transparência e ética na relação com nossos clientes.\n Endereço: Avenida Doutor Sezefredo Azambuja Vieira, 101, Marechal Rondon, Canoas - RS, CEP: 92.020-020, Brasil Telefone: (51) 3075-5400. Entregamos em todo Brasil!\n Responsáveis Técnicas: Dra. Barba Frare | CRF-RS 19619 - Autorização ANVISA: Medicamentos 1120407 Sanitária 2722021\n TODOS OS DIREITOS RESERVADOS",
+      "blockClass": "footer-text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "store.custom#institucional": {
+    "path": "/institucional"
+  },
+  "store.custom#sobre": {
+    "path": "/institucional/sobre-a-dentalshop"
+  },
+  "store.custom#condicoes-extras": {
+    "path": "/institucional/condicoes-extras"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/institucional/politica-de-privacidade"
+  },
+  "store.custom#politica-de-devolucao": {
+    "path": "/institucional/politica-de-devolucao"
+  },
+  "store.custom#politica-comercial": {
+    "path": "/institucional/politica-comercial"
+  },
+  "store.custom#trabalhe-conosco": {
+    "path": "/institucional/trabalhe-conosco"
+  },
+  "store.custom#links-dentalshop": {
+    "path": "/links-dentalshop"
+  }
+}

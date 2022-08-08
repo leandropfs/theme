@@ -1,0 +1,8 @@
+.formSubmitButton{
+    text-align: right;
+    margin-top: 1rem;
+}
+.formSubmitButton :global(.vtex-button__label){
+    text-transform: none;
+    font-weight: bold;
+}

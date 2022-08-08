@@ -1,0 +1,16 @@
+.homeIcon{
+    display: none;
+}
+.homeLink::before{
+    content: "Home";
+}
+.caretIcon,
+.link{
+    font-size: .8rem;
+    color: #000;
+}
+.arrow:last-child .link,
+.term{
+    font-size: .8rem;
+    color: var(--colorPrimary);
+}

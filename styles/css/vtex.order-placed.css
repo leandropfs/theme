@@ -1,0 +1,29 @@
+.section--paymentMethodsCustom [data-payment-name="Customer Credit"] .paymentGroup{
+    font-size: 0;
+}
+.section--paymentMethodsCustom [data-payment-name="Customer Credit"] .paymentGroup::after{
+    content: "Boleto Parcelado";
+    display: block;
+    font-size: 1rem;
+    margin: 1rem 0 .5rem;
+}
+.orderSoldBy {display: none;}
+.updateOrderButton {display: none;}
+.cancelOrderButton {display: none;}
+.productImageWrapper {
+    width: 4rem; 
+    height: auto;
+}
+.productQuantity {font-size: .9rem;}
+.productPrice {
+    display: flex;
+    align-items: center;
+    color: #727273;
+}
+
+.packageDeliveryTitle {font-size: 0;}
+.packageDeliveryTitle::after {
+    content: "Entrega";
+    display: block;
+    font-size: 1.5rem;
+}

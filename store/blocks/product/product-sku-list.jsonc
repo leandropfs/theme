@@ -1,0 +1,154 @@
+{
+    "flex-layout.row#sku-list-custom": {
+        "children": [
+            "flex-layout.col#sku-list-custom"
+        ],
+        "props": {
+            "preventHorizontalStretch": false
+        }
+    },
+    "flex-layout.col#sku-list-custom": {
+        "children": [
+            "responsive-layout.desktop#sku-list-header",
+            "sku-list-custom"
+        ],
+        "props": {
+            "preventHorizontalStretch": false
+        }
+    },
+
+    // Responsive
+    "responsive-layout.desktop#sku-list-header": {
+        "children": ["flex-layout.row#sku-list-header"]
+    },
+
+    // sku list header
+    "flex-layout.row#sku-list-header": {
+        "props": {
+            "preventHorizontalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "blockClass": "skuListHeader"
+        },
+        "children": [
+            "rich-text#skuList-name",
+            "rich-text#skuList-price",
+            "rich-text#skuList-qtd"
+        ]
+    },
+    "rich-text#skuList-name": {
+        "props": {
+            "text": "**Opções**",
+            "blockClass": "skuList-header",
+            "width": "35%"
+        }
+    },
+    "rich-text#skuList-price": {
+        "props": {
+            "text": "**Preço**",
+            "blockClass": "skuList-header",
+            "width": "15%"
+        }
+    },
+    "rich-text#skuList-qtd": {
+        "props": {
+            "text": "**Quantidade**",
+            "blockClass": "skuList-header",
+            "width": "50%"
+        }
+    },
+
+    // sku list content
+    "sku-list-custom": {
+        "blocks": ["sku-content.desktop", "sku-content.mobile"]
+    },
+    "sku-content.desktop": {
+        "children": ["flex-layout.row#sku-list-content"]
+    },
+    "sku-content.mobile": {
+        "children": ["flex-layout.row#sku-list-content-mobile"]
+    },
+    "flex-layout.row#sku-list-content": {
+        "props": {
+            "preventHorizontalStretch": false,
+            "preserveLayoutOnMobile": false,
+            "colSizing": "auto",
+            "blockClass": "sku-list-custom"
+        },
+        "children": [
+            "flex-layout.col#sku-image",
+            "flex-layout.col#sku-name",
+            "flex-layout.col#sku-price",
+            "flex-layout.col#sku-quantity-selector",
+            "flex-layout.col#sku-buy-button"
+        ]
+    },
+    "flex-layout.col#sku-image": {
+        "children": [ "sku-image" ],
+        "props": {
+            "width": "5%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#sku-name": {
+        "children": [ "sku-name" ],
+        "props": {
+            "width": "30%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#sku-price": {
+        "children": [ "sku-price" ],
+        "props": {
+            "width": "15%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#sku-quantity-selector": {
+        "children": [ "sku-quantity-selector" ],
+        "props": {
+            "width": "25%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#sku-buy-button": {
+        "children": [ "sku-buy-button" ],
+        "props": {
+            "width": "25%",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.row#sku-list-content-mobile": {
+        "props": {
+            "preventHorizontalStretch": false,
+            "preserveLayoutOnMobile": false,
+            "colSizing": "auto",
+            "blockClass": "sku-list-custom"
+        },
+        "children": [
+            "flex-layout.col#mobile-sku-image-name",
+            "flex-layout.col#mobile-sku-price",
+            "flex-layout.col#mobile-sku-quantity-buy-button"
+        ]
+    },
+    "flex-layout.col#mobile-sku-image-name": {
+        "children": [ "sku-image", "sku-name" ],
+        "props": {
+            "width": "100%",
+            "blockClass": "mobile-sku-image-name"
+        }
+    },
+    "flex-layout.col#mobile-sku-price": {
+        "children": [ "sku-price"],
+        "props": {
+            "width": "100%",
+            "blockClass": "mobile-sku-price"
+        }
+    },
+    "flex-layout.col#mobile-sku-quantity-buy-button": {
+        "children": [ "sku-quantity-selector", "sku-buy-button" ],
+        "props": {
+            "width": "100%",
+            "blockClass": "mobile-sku-quantity-buy-button"
+        }
+    }
+}

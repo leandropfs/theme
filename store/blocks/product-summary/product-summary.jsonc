@@ -1,0 +1,126 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      // "product-rating-inline",
+      "product-summary-description",
+      "product-summary-column#price",
+      "product-installments#summary",
+      "flex-layout.row#summary-buy-content"
+    ]
+  },
+
+  // Image Content
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "product-price-savings#summary",
+      "seals#collection"
+    ]
+  },
+
+  // Sku Buy 
+  "flex-layout.row#summary-buy-content": {
+    "props": {
+      "blockClass": "summary-buy-content",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "product-summary-quantity",
+      "flex-layout.col#summary-buy-button"
+    ]
+  },
+  "flex-layout.col#summary-buy-button": {
+    "children": [
+      // "add-to-cart-button"
+      "add-to-cart-button-custom"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "product-summary-quantity": {
+    "props": {
+      "showLabel": false
+    }
+  },
+  "product-summary-sku-selector": {
+    "props":{
+      "showVariationsLabels": ["false"],
+      // "displayMode": "slider",
+      // "sliderDisplayThreshold": 3,
+      // "sliderItemsPerPage": {
+      //   "desktop": 3,
+      //   "tablet": 3,
+      //   "phone": 3
+      // },
+      "showValueForVariation": "none",
+      "variationsSpacing": 0
+    }
+  },
+
+  // Image
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+
+  // Discount
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "message": "-{savingsPercentage}",
+      "blockClass": "summary"
+    }
+  },
+
+  // Seals
+  "seals#collection": {
+    "props": {
+      "type": "collection",
+      "blockClass": "seals"
+    }
+  },
+
+  // Name
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+
+  // Price
+  "product-summary-column#price": {
+    "children": [
+      "product-list-price#summary",
+      "product-selling-price#summary"
+    ]
+  },
+  // Price - old
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  // Price - value
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+
+  // Installments
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  }
+  
+}

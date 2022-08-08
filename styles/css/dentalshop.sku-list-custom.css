@@ -1,0 +1,35 @@
+.selectedSkuContentWrapper{
+    border: none;
+    padding: 0;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+.skuName{
+    margin: 0;
+    font-size: .9rem;
+    color: var(--gray);
+    padding-right: .5rem;
+}
+.currencyContainer{
+    font-size: 1.1rem;
+    color: var(--colorSecondary);
+    font-weight: bold;
+}
+:global(.vtex-numeric-stepper__input){
+    width: 3rem;
+}
+.priceContainer{
+    padding: 0;
+}
+.quantitySelectorContainer{
+    margin: 0;
+    max-height: 40px;
+}
+.buttonDataContainer{
+    flex-grow: 1;
+}
+.buttonText{
+    text-transform: none;
+    font-size: .95rem;
+    font-weight: bold;
+}

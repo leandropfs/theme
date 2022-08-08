@@ -1,0 +1,136 @@
+{
+    // Banners
+    "slider-layout#banner-top": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "fullWidth": true,
+            "infinite": false,
+            "showNavigationArrows": "never"
+        }
+    },
+    "slider-layout#banner-full": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "fullWidth": true,
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+        }
+    },
+    "slider-layout#banner-slider-content": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "always"
+        }
+    },
+    "slider-layout#noSlider-d4-m2": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 4,
+                "phone": 12
+            },
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "grid-d4-m2"
+        }
+    },
+    "slider-layout#noSlider-d3-m3": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 12
+            },
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "grid-d3-m3"
+        }
+    },
+    "slider-layout#noSlider-d2-m1": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 12
+            },
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "grid-d2-m1"
+        }
+    },
+    "slider-layout#banner-brands": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 6,
+                "phone": 99
+            },
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            // "showPaginationDots": "never",
+            "showPaginationDots": "always",
+            "blockClass": "banner-brands"
+        }
+    },
+    "slider-layout#banner-categories": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 3,
+                "phone": 12
+            },
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "desktopOnly",
+            "blockClass": "slider-banner-categories"
+        }
+    },
+
+    // Shelf
+    "slider-layout#products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 4,
+                "phone": 1
+            },
+            "centerMode": {
+                "desktop": "disabled",
+                "tablet": "disabled",
+                "phone": "to-the-left"
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": "shelf"
+        }
+    }
+}

@@ -1,0 +1,371 @@
+{
+  "store.custom#politica-comercial": {
+    "blocks": [
+      "flex-layout.row#politica-comercial-content"
+    ]
+  },
+
+  "flex-layout.row#politica-comercial-content": {
+    "props": {
+      "blockClass": "institucional-content"
+    },
+    "children": [
+      "flex-layout.col#politica-comercial-content"
+    ]
+  },
+
+  "flex-layout.col#politica-comercial-content": {
+    "children": [
+      "rich-text#politica-comercial-title",
+      "flex-layout.col#politica-comercial-description"
+    ]
+  },
+
+  "flex-layout.col#politica-comercial-description": {
+    "props":{
+      "blockClass": "content-description"
+    },
+    "children": [
+      "flex-layout.col#politica-comercial-quem-pode-comprar",
+      "flex-layout.col#politica-comercial-formas-de-pagamento",
+      "flex-layout.col#politica-comercial-cadastro-compras-tel"
+    ]
+  },
+
+  "rich-text#politica-comercial-title": {
+    "props": {
+      "text": "# Política Comercial",
+      "blockClass": "heading"
+    }
+  },
+
+  //Descrição
+
+  "flex-layout.col#politica-comercial-quem-pode-comprar": {
+    "children":[
+      "rich-text#politica-comercial-quem-pode-comprar"
+    ]
+  },
+
+  "rich-text#politica-comercial-quem-pode-comprar": {
+    "props":{
+      "text": "## **Quem pode Comprar?** \n Estão aptos a realizar compras no site da Dentalshop: dentistas, acadêmicos de odontologia, protéticos, laboratórios de prótese e clínicas; devidamente habilitados para o exercício da profissão, com número de registro profissional ou CNPJ de serviços odontológicos ou nº de matrícula acadêmica. \n \n ***Atenção: A venda de clareadores e medicamentos só é permitida para profissionais com registro no Conselho de Classe, segundo determinação da ANVISA. Pedidos efetuados por profissionais sem CRO serão cancelados, mesmo após confirmação de pagamento.* \n \n ***OBS.: As compras realizadas através do site estão sujeitas a análise e solicitação de documentos para autorização das compras.*",
+      "blockClass": "subtitle-institucional"
+    }
+  },
+
+  //Formas de Pagamento
+
+  "flex-layout.col#politica-comercial-formas-de-pagamento": {
+    "children": [
+      "rich-text#politica-comercial-formas-de-pagamento",
+      "rich-text#politica-comercial-condicoes-de-pagamento",
+      "flex-layout.row#politica-comercial-pagamento"
+    ]
+  },
+
+  "rich-text#politica-comercial-formas-de-pagamento": {
+    "props": {
+      "text": "## **Quais as Formas de Pagamento?**",
+      "blockClass": "level2-politica-comercial",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#politica-comercial-condicoes-de-pagamento": {
+    "props": {
+      "text": "### **Condições de Pagamento**",
+      "blockClass": "level3-politica-comercial",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#politica-comercial-pagamento": {
+    "children":[
+      "rich-text#politica-comercial-condicoes-cartoes",
+      "rich-text#politica-comercial-condicoes-boleto",
+      "rich-text#politica-comercial-condicoes-transferencia",
+      "rich-text#politica-comercial-condicoes-deposito"
+    ]
+  },
+
+  "rich-text#politica-comercial-condicoes-cartoes": {
+    "props":{
+      "text": "![Cartões disponíveis para pagamento: Visa, HiperCard, MasterCard, Hiper, DinersClub](assets/institucional/condicoes-cartoes.png) \n Parcelado em até \n **6x sem juros** \n Exceto para Toxina e Ácido Hialurônico. \n Consulte condições de parcelamento com a equipe Dentalshop.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "font-size-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-condicoes-boleto": {
+    "props":{
+      "text": "![Boleto](assets/institucional/condicoes-boleto.png) \n À vista com \n **3% de desconto** \n Exceto para Toxina e Ácido Hialurônico.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "font-size-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-condicoes-transferencia": {
+    "props":{
+      "text": "![Itaú Shopline](assets/institucional/condicoes-transferencia.png) \n Transferência bancária",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-condicoes-deposito": {
+    "props":{
+      "text": "![Depósito](assets/institucional/condicoes-deposito.png) \n Depósito",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  //Cadastro para comprar por Telefone
+
+  "flex-layout.col#politica-comercial-cadastro-compras-tel": {
+    "children": [
+      "rich-text#politica-comercial-abertura-cadastro-tel",
+      "rich-text#politica-comercial-documentos-pf",
+      "flex-layout.row#politica-comercial-instrucoes-pf",
+      "rich-text#politica-comercial-aprovacao-pf",
+      "rich-text#politica-comercial-documentos-pj",
+      "flex-layout.row#politica-comercial-instrucoes-pj",
+      "rich-text#politica-comercial-aprovacao-pj"
+    ]
+  },
+
+  "rich-text#politica-comercial-abertura-cadastro-tel": {
+    "props": {
+      "text": "## **Abertura de Cadastro para Compras via Telefone**",
+      "blockClass": "level2-politica-comercial",
+      "textPosition": "CENTER"
+    }
+  },
+
+  //Pessoa Física
+
+  "rich-text#politica-comercial-documentos-pf": {
+    "props": {
+      "text": "### **Documentos para Cadastro de Pessoa Física.**",
+      "blockClass": "level3-politica-comercial",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#politica-comercial-instrucoes-pf": {
+    "children":[
+      "rich-text#politica-comercial-ficha-pf",
+      "rich-text#politica-comercial-pf-span-1",
+      "rich-text#politica-comercial-autorizacao-pf",
+      "rich-text#politica-comercial-pf-span-2",
+      "rich-text#politica-comercial-doc-ident-pf",
+      "rich-text#politica-comercial-pf-span-3",
+      "rich-text#politica-comercial-foto-pf"
+    ],
+    "props":{
+      "width": "auto"
+    }
+  },
+
+  "rich-text#politica-comercial-ficha-pf": {
+    "props":{
+      "text": "![Ficha Cadastral](assets/institucional/icone-ficha-cadastral.png) \n Ficha cadastral preenchida e assinada pelo titular do cadastro.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-pf-span-1": {
+    "props":{
+      "text": "ou",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politica-comercial-span",
+      "width": "4%"
+    }
+  },
+
+  "rich-text#politica-comercial-autorizacao-pf": {
+    "props":{
+      "text": "![Ficha de Autorizção](assets/institucional/icone-autorizacao-abertura.png) \n Autorização de abertura de cadastro assinada pelo titular.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-pf-span-2": {
+    "props":{
+      "text": "**+**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politica-comercial-span",
+      "width": "4%"
+    }
+  },
+
+  "rich-text#politica-comercial-doc-ident-pf": {
+    "props":{
+      "text": "![Documento de Identificação](assets/institucional/icone-rg.png) \n Documento de Identificação (RG) do titular do cadastro.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-pf-span-3": {
+    "props":{
+      "text": "**+**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politica-comercial-span",
+      "width": "2%"
+    }
+  },
+
+  "rich-text#politica-comercial-foto-pf": {
+    "props":{
+      "text": "![Comprovrante de Registro](assets/institucional/icone-comprovante.png) \n Foto do Comprovante de Registro (CRO, CRF, etc.) do titular do cadastro.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-aprovacao-pf": {
+    "props":{
+      "text": "#### **Prazo de até 2 horas para aprovação.**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "level4-politica-comercial"
+    }
+  },
+
+  //Pessoa Jurídica
+
+  "rich-text#politica-comercial-documentos-pj": {
+    "props": {
+      "text": "### **Documentos para Cadastro de Pessoa Jurídica.**",
+      "blockClass": "level3-politica-comercial",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#politica-comercial-instrucoes-pj": {
+    "children":[
+      "rich-text#politica-comercial-ficha-pj",
+      "rich-text#politica-comercial-pj-span-1",
+      "rich-text#politica-comercial-autorizacao-pj",
+      "rich-text#politica-comercial-pj-span-2",
+      "rich-text#politica-comercial-contrato-social-pj",
+      "rich-text#politica-comercial-pj-span-3",
+      "rich-text#politica-comercial-doc-ident-pj",
+      "rich-text#politica-comercial-pj-span-4",
+      "rich-text#politica-comercial-foto-pj"
+    ],
+    "props":{
+      "width": "auto"
+    }
+  },
+
+  "rich-text#politica-comercial-ficha-pj": {
+    "props":{
+      "text": "![Ficha Cadastral](assets/institucional/icone-ficha-cadastral.png) \n Ficha cadastral preenchida e assinada por um dos sócios responsáveis que constam no contrato social.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-pj-span-1": {
+    "props":{
+      "text": "ou",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politica-comercial-span",
+      "width": "2%"
+    }
+  },
+
+  "rich-text#politica-comercial-autorizacao-pj": {
+    "props":{
+      "text": "![Ficha de Autorização](assets/institucional/icone-autorizacao-abertura.png) \n Autorização de abertura de cadastro preenchida e assinada por um dos sócios responsáveis que constam no contrato social.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-pj-span-2": {
+    "props":{
+      "text": "**+**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politica-comercial-span",
+      "width": "2%"
+    }
+  },
+
+  "rich-text#politica-comercial-contrato-social-pj": {
+    "props":{
+      "text": "![Contrato Social](assets/institucional/icone-contrato-social.png) \n Contrato Social enviado por foto ou scan.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-pj-span-3": {
+    "props":{
+      "text": "**+**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politica-comercial-span",
+      "width": "2%"
+    }
+  },
+
+  "rich-text#politica-comercial-doc-ident-pj": {
+    "props":{
+      "text": "![Documento de Identificação](assets/institucional/icone-rg.png) \n Documento de Identificação (RG) do sócio responsável que assinou a ficha cadastral ou autorização de abertura.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-pj-span-4": {
+    "props":{
+      "text": "**+**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politica-comercial-span",
+      "width": "2%"
+    }
+  },
+
+  "rich-text#politica-comercial-foto-pj": {
+    "props":{
+      "text": "![Comprovrante de Registro](assets/institucional/icone-comprovante.png) \n Foto do Comprovante de Registro (CRO, CRF, etc.) do profissional de saúde responsável.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "margin-politica-comercial"
+    }
+  },
+
+  "rich-text#politica-comercial-aprovacao-pj": {
+    "props":{
+      "text": "#### **Prazo de até 1 dia útil para aprovação.**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "level4-politica-comercial"
+    }
+  }
+
+}

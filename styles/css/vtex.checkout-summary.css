@@ -1,0 +1,7 @@
+.summaryItemLabel,
+.price{
+    font-weight: bold;
+}
+.price{
+    color: var(--colorSecondary);
+}

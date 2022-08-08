@@ -1,0 +1,111 @@
+{
+  "store.custom#links-dentalshop": {
+    "blocks": [
+      "upnext-components",
+      "flex-layout.row#links-dentalshop-content"
+    ],
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    }
+  },
+
+  "flex-layout.row#links-dentalshop-content": {
+    "props": {
+      "blockClass": "links-dentalshop"
+    },
+    "children": [
+      "flex-layout.col#links-dentalshop-content"
+    ]
+  },
+
+  "flex-layout.col#links-dentalshop-content": {
+    "children": [
+      "flex-layout.col#links-dentalshop-header",
+      "flex-layout.col#links-dentalshop-main"
+    ]
+  },
+  "flex-layout.col#links-dentalshop-header": {
+    "children":[
+      "logo",
+      "rich-text#links-dentalshop-header-text"
+    ],
+    "props": {
+      "blockClass": "links-dentalshop-header"
+    }
+  },
+  "rich-text#links-dentalshop-header-text": {
+    "props": {
+      "text": "Pra você também sorrir",
+      "blockClass": "links-dentalshop-header"
+    }
+  },
+  "flex-layout.col#links-dentalshop-main": {
+    "children": [
+      "rich-text#links-dentalshop-title",
+      "flex-layout.col#links"
+    ],
+    "props": {
+      "blockClass": "links-dentalshop-main"
+    }
+  },
+  "rich-text#links-dentalshop-title": {
+    "props": {
+      "text": "# O que você precisa está aqui",
+      "blockClass": "links-dentalshop-heading"
+    }
+  },
+  "flex-layout.col#links": {
+    "children": [
+      "rich-text#compre-site",
+      "rich-text#compre-whatsapp",
+      "rich-text#televendas",
+      "rich-text#academicos",
+      "rich-text#instagram",
+      "rich-text#facebook",
+      "rich-text#linkedin-trabalheConosco"
+    ]
+  },
+  "rich-text#compre-site": {
+    "props": {
+      "text":"[Compre pelo site](https://www.dentalshop.com.br/)",
+      "blockClass":"links-dentalshop-site"
+    }
+  },
+  "rich-text#compre-whatsapp": {
+    "props": {
+      "text":"[Compre pelo Whatsapp](https://api.whatsapp.com/send?phone=555130755400)",
+      "blockClass":"links-dentalshop-whatsapp"
+    }
+  },
+  "rich-text#televendas": {
+    "props": {
+      "text":"[Televendas](tel:0800-602-5400)",
+      "blockClass":"links-dentalshop-televendas"
+    }
+  },
+  "rich-text#academicos": {
+    "props": {
+      "text":"[Acadêmicos](https://api.whatsapp.com/send?phone=555193777362)",
+      "blockClass":"links-dentalshop-academicos"
+    }
+  },
+  "rich-text#instagram": {
+    "props": {
+      "text":"[Instagram](https://www.instagram.com/dentalshopbrasil)",
+      "blockClass":"links-dentalshop-instagram"
+    }
+  },
+  "rich-text#facebook": {
+    "props": {
+      "text":"[Facebook](https://www.facebook.com/dentalshopbrasil)",
+      "blockClass":"links-dentalshop-facebook"
+    }
+  },
+  "rich-text#linkedin-trabalheConosco": {
+    "props": {
+      "text":"[Linkedin | Trabalhe Conosco!](https://br.linkedin.com/company/dentalshopbrasil)",
+      "blockClass":"links-dentalshop-linkedin"
+    }
+  }
+}

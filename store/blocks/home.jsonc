@@ -1,0 +1,502 @@
+{
+  "store.home": {
+    "blocks": [ "seals-context#home" ]
+  },
+
+  "seals-context#home": {
+    "children": [
+      "list-context.image-list#banner-full",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#banner-advantages",
+      "flex-layout.row#shelf-novidades",
+      "__fold__",
+      "flex-layout.row#banner-home-01",
+      "flex-layout.row#banner-home-02",
+      "flex-layout.row#shelf-02",
+      "flex-layout.row#banner-home-03",
+      "flex-layout.row#banner-brands",
+      "flex-layout.row#shelf-03",
+      "flex-layout.row#shelf-04",
+      "flex-layout.row#shelf-05",
+      "flex-layout.row#banners-categories"
+    ]
+  },
+
+  // Banner full
+  "list-context.image-list#banner-full": {
+    "children": ["slider-layout#banner-full"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/banner-home-slider-25anos.webp",
+          "mobileImage": "assets/home/banner-home-slider-25anos-mobile.webp",
+          "width": "1920px",
+          "link": {
+            "url": "/institucional/sobre-a-dentalshop"
+          }
+        },
+        {
+          "image": "assets/home/banner-home-slider-25anos.png",
+          "mobileImage": "assets/home/banner-home-slider-25anos-mobile.png",
+          "width": "1920px",
+          "link": {
+            "url": "/institucional/sobre-a-dentalshop"
+          }
+        }
+      ]
+    }
+  },
+
+  // Bannner Advantages
+  "flex-layout.row#banner-advantages": {
+    "children": [
+      "list-context.image-list#banner-advantages"
+    ],
+    "props": {
+      "blockClass": "banner-advantages",
+      "marginTop": 5
+    }
+  },
+  "list-context.image-list#banner-advantages": {
+    "children": ["slider-layout#noSlider-d4-m2"],
+    "props": {
+      "height": 90,
+      "images": [
+        {
+          "image": "assets/home/banner-home-atendimento.png",
+          "width": "300px",
+          "link": {
+            "url": "https://api.whatsapp.com/send?phone=5551994808573",
+            "openNewTab": true,
+            "noFallow": true
+          }
+        },
+        {
+          "image": "assets/home/banner-home-frete.png",
+          "width": "300px"
+        },
+        {
+          "image": "assets/home/banner-home-parcelamento.png",
+          "width": "300px"
+        },
+        {
+          "image": "assets/home/banner-home-garantia.png",
+          "width": "300px"
+        }
+      ]
+    }
+  },
+
+  // Shelf novidades
+  "flex-layout.row#shelf-novidades": {
+    "children": ["flex-layout.col#shelf-novidades"]
+  },
+  "flex-layout.col#shelf-novidades": {
+    "children": [
+      "rich-text#shelf-title-novidades",
+      "list-context.product-list#novidades"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#shelf-title-novidades": {
+    "props": {
+      "text": "## [Super ofertas de Aniversário](/139?map=productClusterIds)",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#novidades": {
+    "children": ["slider-layout#products"],
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  // Banner 01 - slider
+  "flex-layout.row#banner-home-01": {
+    "children": [
+      "list-context.image-list#banner-home-01"
+    ],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "list-context.image-list#banner-home-01": {
+    "children": ["slider-layout#banner-full"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/banner-home-hialurox.webp",
+          "mobileImage": "assets/home/banner-home-hialurox-mobile.webp",
+          "width": "1367px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-home-hialurox.png",
+          "mobileImage": "assets/home/banner-home-hialurox-mobile.png",
+          "width": "1367px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-home-hialurox.webp",
+          "mobileImage": "assets/home/banner-home-hialurox-mobile.webp",
+          "width": "1367px",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+
+  // Banner 02 - col 3
+  "flex-layout.row#banner-home-02": {
+    "children": [
+      "list-context.image-list#banner-home-02"
+    ],
+    "props": {
+      "marginTop": 7
+    }
+  },
+  "list-context.image-list#banner-home-02": {
+    "children": ["slider-layout#noSlider-d3-m3"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/banner-home-promocao-3m.png",
+          "mobileImage": "assets/home/banner-home-promocao-3m-mobile.png",
+          "width": "444px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-home-promocao-descartaveis.png",
+          "mobileImage": "assets/home/banner-home-promocao-descartaveis-mobile.png",
+          "width": "444px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-home-promocao-kitEconomico.png",
+          "mobileImage": "assets/home/banner-home-promocao-kitEconomico-mobile.png",
+          "width": "444px",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+
+  // Shelf 02
+  "flex-layout.row#shelf-02": {
+    "children": ["flex-layout.col#shelf-02"],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#shelf-02": {
+    "children": [
+      "rich-text#shelf-title-02",
+      "list-context.product-list#shelf-02"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#shelf-title-02": {
+    "props": {
+      "text": "## [Dia a dia com ofertas](/139?map=productClusterIds)",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#shelf-02": {
+    "children": ["slider-layout#products"],
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  // Banner 03 - col 2
+  "flex-layout.row#banner-home-03": {
+    "children": [
+      "list-context.image-list#banner-home-03"
+    ],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "list-context.image-list#banner-home-03": {
+    "children": ["slider-layout#noSlider-d2-m1"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/banner-home-arcsys.png",
+          "mobileImage": "assets/home/banner-home-arcsys-mobile.png",
+          "width": "676px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-home-whatsapp.png",
+          "mobileImage": "assets/home/banner-home-whatsapp-mobile.png",
+          "width": "672px",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+
+  // Banners Marcas
+  "flex-layout.row#banner-brands": {
+    "children": [
+      "flex-layout.col#banner-brands"
+    ],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#banner-brands": {
+    "children": [
+      "rich-text#shelf-title-brand",
+      "list-context.image-list#banner-brands"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#shelf-title-brand": {
+    "props": {
+      "text": "## As melhores marcas",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.image-list#banner-brands": {
+    "children": ["slider-layout#banner-brands"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/banner-brand-3m.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-fgm.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-orthometric.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-maquira.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-ivoclar.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-dentsply.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-3m.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-3m.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "assets/home/banner-brand-3m.png",
+          "width": "167px",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+
+  // Shelf mais vendidos
+  "flex-layout.row#shelf-03": {
+    "children": ["flex-layout.col#shelf-03"],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#shelf-03": {
+    "children": [
+      "rich-text#shelf-title-03",
+      "list-context.product-list#shelf-03"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#shelf-title-03": {
+    "props": {
+      "text": "## [Moda para sua clínicas!](/139?map=productClusterIds)",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#shelf-03": {
+    "children": ["slider-layout#products"],
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  // Shelf Harmonização
+  "flex-layout.row#shelf-04": {
+    "children": ["flex-layout.col#shelf-04"],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#shelf-04": {
+    "children": [
+      "rich-text#shelf-title-04",
+      "list-context.product-list#shelf-04"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#shelf-title-04": {
+    "props": {
+      "text": "## [Harmonização](/Harmonizacao-Orofacial)",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#shelf-04": {
+    "children": ["slider-layout#products"],
+    "blocks": ["product-summary.shelf"]
+  },
+
+  // Shelf Dentística e Estética
+  "flex-layout.row#shelf-05": {
+    "children": ["flex-layout.col#shelf-05"],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#shelf-05": {
+    "children": [
+      "rich-text#shelf-title-05",
+      "list-context.product-list#shelf-05"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#shelf-title-05": {
+    "props": {
+      "text": "## [Dentística e Estética](/DENTiSTICA-E-ESTeTICA)",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#shelf-05": {
+    "children": ["slider-layout#products"],
+    "blocks": ["product-summary.shelf"]
+  },
+
+  // Banners Categories 
+  "flex-layout.row#banners-categories": {
+    "children": [
+      "list-context.image-list#banner-categories"
+    ],
+    "props": {
+      "blockClass": "banners-categories",
+      "marginTop": 5,
+      "marginBottom": 3
+    }
+  },
+  "list-context.image-list#banner-categories": {
+    "children": ["slider-layout#noSlider-d3-m3"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/banner-categories-harmonizacao.png",
+          "width": "209px",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/home/banner-categories-dentistica.png",
+          "width": "209px",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/home/banner-categories-ortodontia.png",
+          "width": "209px",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/home/banner-categories-endodontia.png",
+          "width": "209px",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/home/banner-categories-descartaveis.png",
+          "width": "209px",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/home/banner-categories-implantodontia.png",
+          "width": "209px",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }
+
+}

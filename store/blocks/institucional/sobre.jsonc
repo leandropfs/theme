@@ -1,0 +1,50 @@
+{
+  "store.custom#sobre": {
+    "blocks": [
+      "flex-layout.row#sobre-content"
+    ]
+  },
+  "flex-layout.row#sobre-content": {
+    "props": {
+      "blockClass": "institucional-content"
+    },
+    "children": [
+      "flex-layout.col#sobre-content"
+    ]
+  },
+  "flex-layout.col#sobre-content": {
+    "children": [
+      "rich-text#sobre-title",
+      "flex-layout.col#sobre-content-description"
+    ]
+  },
+  "rich-text#sobre-title": {
+    "props": {
+      "text": "# Sobre a Dentalshop",
+      "blockClass": "heading"
+    }
+  },
+  
+  "flex-layout.col#sobre-content-description": {
+    "props":{
+      "blockClass": "content-description",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#sobre-image",
+      "rich-text#sobre-text"
+    ]
+  },
+
+  "image#sobre-image": {
+    "props": {
+      "src": "assets/institucional/sobre-a-dentalshop.png"
+    }
+  },
+  "rich-text#sobre-text": {
+    "props": {
+      "text": "A Dentalshop é uma empresa especializada na comercialização de produtos odontológicos nacionalmente reconhecida no segmento em que atua desde 1996. \n \n O nosso principal objetivo é fazer você sorrir e, por isso, somos os responsáveis por entregar o que há de mais moderno em produtos, no menor prazo possível, com um atendimento personalizado e que se encaixa nas suas necessidades.\n \n Dispomos de uma sede localizada em Canoas, que conta com produtos à pronta entrega, estacionamento próprio no local e segurança, garantido ainda mais conforto na hora da sua compra. \n \n Além disso, oferecemos um serviço de entrega para todo o Brasil, sem nenhum custo para Canoas e Região Metropolitana de POA, em pedidos a partir de R$100. Consulte as condições de entregas nas demais localidades.",
+      "blockClass": "institucional-text"
+    }
+  }
+}

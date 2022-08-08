@@ -1,0 +1,27 @@
+
+/* Title */
+.title{
+    display: flex;
+    max-width: 96rem;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    align-items: center;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #000;
+    justify-content: flex-start;
+}
+.title::before{
+    content: "";
+    display: inline-block;
+    margin-right: .5rem;
+    width: 43px;
+    height: 11px;
+    background-image: url('assets/brand-element.svg');
+}
+
+/* Dots */
+.relatedProducts :global(.vtex-slider-0-x-dotsContainer){
+    display: none;
+}

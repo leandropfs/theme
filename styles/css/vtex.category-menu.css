@@ -1,0 +1,232 @@
+:global(.vtex-menu-2-x-menuItem--submenu-left) .section--department,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .section--department{
+    padding: 0;
+    width: 100%;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .departmentList,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .departmentList{
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .departmentLink,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .departmentLink{
+    display: flex;
+    align-items: center;
+    border: none;
+    margin: 0;
+    font-size: 0;
+    text-align: left;
+    background-color: var(--purpleLight);
+    padding: .8rem .5rem;
+    transition: .2s!important;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .departmentLink:hover,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .departmentLink:hover{
+    background-color: var(--green);
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .departmentLink::before,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .departmentLink::before{
+    content: "";
+    display: inline-block;
+    margin-right: .5rem;
+    width: 43px;
+    height: 11px;
+    background-image: url('assets/brand-element.svg');
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .departmentLink::after,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .departmentLink::after{
+    content: "Ver todos";
+    font-size: .9rem;
+    font-weight: bold;
+    color: #fff;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .itemContainer--department,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .itemContainer--department{
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    height: 100%;
+    max-height: 100%;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .itemContainer--category,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .itemContainer--category{
+    display: block!important;
+    position: unset;
+    padding: 0;
+    border: none;
+    flex-grow: 1;
+    max-height: 100%;
+    background-color: var(--bgGray);
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .section--category,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .section--category{
+    padding: .5rem;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .submenuList,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .submenuList{
+    display: block;
+    column-count: 2;
+    column-fill: auto;
+    max-height: 440px;
+    overflow: hidden;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .submenuItem,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .submenuItem{
+    width: 100%;
+    color: #000;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .firstLevelList,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .firstLevelList{
+    padding: 0;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .firstLevelLink,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .firstLevelLink{
+    text-decoration: none!important;
+    transition: .2s!important;
+    padding: .45rem .75rem;
+}
+:global(.vtex-menu-2-x-menuItem--submenu-left) .firstLevelLink:hover,
+:global(.vtex-menu-2-x-menuItem--submenu-right) .firstLevelLink:hover{
+    color: #fff;
+    background-color: var(--purple);
+}
+
+/* Todas as categorias */
+:global(.vtex-menu-2-x-menuItem--menu-all) .container{
+    position: relative;
+    border-left: 1px solid var(--grayBorder);
+    border-bottom:  1px solid var(--grayBorder);
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .section--department{
+    width: 340px;
+    padding: .5rem 0;
+    margin-left: 0;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .departmentList{
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: space-between;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .departmentLink{
+    margin: 0;
+    font-size: .8rem;
+    padding: .21rem 1rem;
+    text-align: left;
+    color: #000;
+    border: none;
+    transition: .2s;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .itemContainer--department:hover .departmentLink{
+    background-color: var(--purple);
+    color: #fff;
+}
+
+/* Todas as categorias - sub categoria */
+:global(.vtex-menu-2-x-menuItem--menu-all) .itemContainer--category{
+    top: 0!important;
+    right: 0;
+    left: auto;
+    width: calc(100% - 340px);
+    height: calc(100% - 35px);
+    max-height: 100%;
+    background-color: var(--bgGray);
+    border: none;
+    padding: 0;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .section--category{
+    padding: 1rem;
+    height: 100%;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .submenuList{
+    display: block;
+    column-count: 2;
+    column-fill: auto;
+    max-height: 450px;
+    overflow: auto;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .submenuItem{
+    width: 100%;
+    color: #000;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .firstLevelList{
+    padding: 0;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .firstLevelLink{
+    padding: .31rem 0;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .itemContainer--department:hover .departmentLink::after{
+    content: "Ver todos";
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    width: calc(100% - 340px);
+    height: 36px;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 36px;
+    padding: 0 1rem 0 4.5rem;
+    background-color: var(--purpleLight);
+    background-image: url('assets/brand-element.svg');
+    background-position: 1rem center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    transition: .2s;
+}
+:global(.vtex-menu-2-x-menuItem--menu-all) .itemContainer--department .departmentLink:hover::after{
+    text-decoration: underline;
+}
+
+/* Mobile */
+.menuIcon{
+    color: #fff;
+    margin-right: -.5rem;
+    margin-left: .5rem;
+}
+.sidebarScrim{
+    left: 0;
+}
+.animation{
+    left: auto;
+    right: 0;
+    transform: translateX(110%)!important;
+}
+.sidebarOpen .animation{
+    transform: translateX(0)!important;
+}
+.sidebarHeader{
+    padding: .75rem;
+    background-color: var(--purpleLight);
+}
+.closeIcon{
+    display: none;
+}
+.sidebarHeader::after{
+    content: "Menu";
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+.sidebarContent{
+    background-color: var(--purple);
+    padding: 0 .75rem;
+}
+.sidebarItem{
+    color: #fff!important;
+    padding: 0;
+}
+.plusIcon,
+.minusIcon{
+    color: #fff;
+}
+.sidebarItemContainer{
+    padding: 1rem 0;
+    border-top: 1px solid var(--purpleLight);
+}
+.sidebarItem .sidebarItem .sidebarItemContainer{
+    background-color: var(--purpleLight);
+    padding: .75rem;
+}

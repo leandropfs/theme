@@ -1,0 +1,80 @@
+.flexColChild--condicoes-extras-frete-gratis {
+  margin-right: 2rem;
+}
+
+.flexCol--trabalhe-conosco {
+  margin-bottom: 2rem;
+}
+
+/* Links Dentalshop */
+.flexRow--links-dentalshop :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+.flexCol--links-dentalshop-header {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--colorSecondary);
+  padding: 2rem 0;
+}
+.flexColChild--links-dentalshop-header {
+  width: 23rem;
+}
+.flexColChild--links-dentalshop-header :global(.vtex-store-components-3-x-logoImage) {
+  max-width: 23rem;
+  width: 23rem;
+}
+.flexCol--links-dentalshop-main {
+  padding-bottom: 10rem;
+  background-image: url("assets/institucional/background-linktree.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.flexColChild--links-dentalshop-main :global(.vtex-rich-text-0-x-paragraph) {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.flexColChild--links-dentalshop-main :global(.vtex-rich-text-0-x-link) {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding: .5rem 2rem .5rem .5rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.flexColChild--links-dentalshop-main :global(.vtex-rich-text-0-x-link):hover {
+  text-decoration: underline;
+}
+.flexColChild--links-dentalshop-main :global(.vtex-rich-text-0-x-link)::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1.5rem;
+  min-width: 45px;
+  min-height: 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.flexColChild--links-dentalshop-main :global(.vtex-rich-text-0-x-wrapper) {
+  width: 100%;
+}
+@media only screen and (max-width: 640px) {
+  .flexColChild--links-dentalshop-header {
+    width: 20rem;
+  }
+  .flexColChild--links-dentalshop-header :global(.vtex-store-components-3-x-logoImage) {
+    max-width: 20rem;
+    width: 20rem;
+  }
+}
+@media only screen and (max-width: 389px) {
+  .flexColChild--links-dentalshop-main :global(.vtex-rich-text-0-x-link) {
+    font-size: 1.3rem;
+  }
+}

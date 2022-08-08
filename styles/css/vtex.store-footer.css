@@ -1,0 +1,78 @@
+.footerLayout{
+  background-color: var(--bgGray);
+}
+
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+/* Social Network */
+.socialNetworkWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.socialNetworksTitle{
+  display: flex;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+.socialNetworksTitle::before{
+  content: "";
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-right: .5rem;
+  background: url("assets/icon-favicon-white.svg") no-repeat;
+  background-size: cover;
+}
+.socialNetworksContainer{
+  gap: .5rem;
+  margin: 0;
+}
+.socialNetworkLink{
+  margin: 0 .25rem;
+  width: auto;
+}
+.socialNetworkImage{
+  display: none;
+}
+.socialNetworkLink--facebook::before{
+  content: url('assets/icon-facebook-white.svg');
+  width: 21px;
+  height: 39px;
+}
+.socialNetworkLink--instagram::before{
+  content: url('assets/icon-instagram-white.svg');
+  width: 34px;
+  height: 34px;
+}
+.socialNetworkLink--linkedin::before{
+  content: url('assets/icon-linkedin-white.svg');
+  width: 34px;
+  height: 34px;
+}
+
+@media only screen and (max-width: 639px) {
+  .footerLayout :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding: .75rem 0;
+  }
+  .socialNetworkWrapper{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .socialNetworksTitle{
+    margin: 0;
+  }
+}

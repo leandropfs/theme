@@ -1,0 +1,42 @@
+{
+  "store.custom#politica-de-privacidade": {
+    "blocks": [
+      "flex-layout.row#politica-de-privacidade-content"
+    ]
+  },
+
+  "flex-layout.row#politica-de-privacidade-content": {
+    "children": [
+      "flex-layout.col#politica-de-privacidade-content"
+    ]
+  },
+
+  "flex-layout.col#politica-de-privacidade-content": {
+    "children": [
+      "rich-text#politica-de-privacidade-title",
+      "flex-layout.col#politica-de-privacidade-description"
+    ]
+  },
+
+  "rich-text#politica-de-privacidade-title": {
+    "props": {
+      "text": "# Política de Privacidade",
+      "blockClass": "heading"
+    }
+  },
+
+  "flex-layout.col#politica-de-privacidade-description": {
+    "props":{
+      "blockClass": "content-description"
+    },
+    "children":[
+      "rich-text#politica-de-privacidade-text"
+    ]
+  },
+
+  "rich-text#politica-de-privacidade-text": {
+    "props": {
+      "text": "A Dentalshop tem o compromisso de manter sua privacidade e segurança durante o processo de navegação e de compra. \n \n Lembramos que seus dados pessoais são registrados por nosso sistema de forma automatizada, sem a interferência humana neste processo. \n \n A Dentalshop garante que seus dados cadastrais não serão trocados, vendidos ou divulgados para parceiros ou quaisquer outras empresas sem sua prévia autorização, exceto quando essas informações são necessárias para o processo de entrega ou cobrança. Para que estes dados permaneçam em total sigilo, aconselhamos nunca divulgar sua senha a terceiros, mesmo que a amigos e parentes. \n \n Toda e qualquer alteração sobre nossa política de privacidade serão devidamente informadas neste espaço. \n \n Seus dados são coletados nos seguintes passos: \n - No cadastro de compras \n - No cadastro de nossas promoções \n - Ao responder a uma pesquisa \n - No cadastro de newsletter, para receber as novidades e promoções do site por e-mail \n \n \n Suas informações pessoais são fundamentais para que seu pedido chegue em segurança, no local de sua preferência, de acordo com o prazo de entrega. \n \n A Dentalshop mantém suas informações em sigilo absoluto e as utiliza somente com o objetivo de traçar um perfil do público do site e para aperfeiçoamento de serviços, produtos e conteúdos."
+    }
+  }
+}

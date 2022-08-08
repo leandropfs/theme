@@ -1,0 +1,15 @@
+{
+    "list-context.image-list#banner-search": {
+        "children": ["slider-layout#banner-full"],
+        "props": {
+            "images": []
+          }
+    },
+    "search-banner#top": {
+        "props": {
+          "area": "one",
+          "blockClass": "bannerTop",
+          "horizontalAlignment": "center"
+        }
+    }
+}

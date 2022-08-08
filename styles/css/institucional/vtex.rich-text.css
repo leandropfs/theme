@@ -1,0 +1,139 @@
+.strong--subtitle-institucional, .headingLevel2--level2-condicoes-extras, .heading--level2-politica-comercial {
+  color: var(--orange);
+  font-size: 1.5rem;
+}
+
+.headingLevel2--level2-condicoes-extras {
+  margin-bottom: 0;
+}
+
+.strong--condicoes-extras-text {
+  font-size: 1.3rem;
+}
+
+.heading--condicoes-extras-text {
+  font-size: 1.2rem;
+}
+
+.paragraph--condicoes-extras-text {
+  font-size: 0.8rem;
+}
+
+.headingLevel2--level2-politica-comercial {
+  margin-bottom: 0;
+}
+
+.heading--level3-politica-comercial {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.heading--level4-politica-comercial {
+  color: var(--orange);
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+.paragraph--font-size-politica-comercial {
+  font-size: 0.8rem;
+}
+
+.wrapper--margin-politica-comercial, .paragraph--font-size-politica-comercial {
+  margin: 1rem
+}
+
+.container--politica-comercial-span {
+  width: 10px;
+}
+
+.paragraph--politica-comercial-span {
+  font-size: 0.9rem;
+  width: 2.2rem;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin: 0.2rem;
+}
+
+.strong--politica-comercial-span {
+  font-size: 1rem;
+}
+
+/* Links Dentalshop */
+.paragraph--links-dentalshop-header {
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: -1.2rem;
+  margin-left: 5rem;
+}
+.wrapper--links-dentalshop-heading {
+  display: flex;
+  align-items: center;
+  margin: 3.5rem 0;
+}
+.wrapper--links-dentalshop-heading::before{
+  content: "";
+  display: inline-block;
+  margin-right: .5rem;
+  width: 43px;
+  height: 11px;
+  background-image: url('assets/brand-element-white.svg');
+}
+.heading--links-dentalshop-heading {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+.link--links-dentalshop-site::before {
+  background-color: #fff;
+  background-image: url('assets/icon-cart-purple.svg');
+}
+.link--links-dentalshop-whatsapp::before {
+  background-color: #32ba46;
+  background-image: url('assets/icon-whatsapp-white.svg');
+}
+.link--links-dentalshop-televendas::before {
+  background-color: #fff;
+  background-image: url('assets/institucional/links-dentalshop-televendas.png');
+}
+.link--links-dentalshop-academicos::before {
+  background-color: #50137c;
+  background-image: url('assets/institucional/links-dentalshop-academico.png');
+}
+.link--links-dentalshop-instagram::before {
+  background-color: #ef3776;
+  background-image: url('assets/icon-instagram-white.svg');
+}
+.link--links-dentalshop-facebook::before {
+  background-color: #395398;
+  background-image: url('assets/icon-facebook-white.svg');
+  background-size: 40%!important;
+  background-position-y: bottom!important;
+  background-position-x: 1rem!important;
+}
+.link--links-dentalshop-linkedin::before {
+  background-color: #4467ad;
+  background-image: url('assets/icon-linkedin-white.svg');
+  background-size: 55%!important;
+}
+@media only screen and (max-width: 640px) {
+  .paragraph--links-dentalshop-header {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: -0.8rem;
+    margin-left: 3rem;
+  }
+  .heading--links-dentalshop-heading {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 389px) {
+  .heading--links-dentalshop-heading {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,124 @@
+.menuContainerNav{
+    height: 100%;
+}
+.menuContainer{
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+.styledLinkContainer{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.styledLink{
+    color: #fff;
+}
+.styledLinkIcon{
+    margin: 0 .5rem 0 0;
+    color: var(--purpleLight);
+}
+.styledLinkContent{
+    height: 100%;
+    align-items: center;
+    padding: .8rem;
+    transition: .2s;
+}
+.styledLink--highlight .styledLinkContent::after{
+    content: "";
+    display: inline-block;
+    margin-left: .5rem;
+    width: 37px;
+    height: 13px;
+    background: url("assets/menu-new.png")no-repeat;
+}
+.menuItem--menu-all--isOpen:hover .styledLinkContent,
+.menuItem--submenu-left--isOpen:hover .styledLinkContent,
+.menuItem--submenu-right--isOpen:hover .styledLinkContent{
+    background-color: var(--purpleLight);
+    border-radius: var(--radius) var(--radius) 0 0;
+}
+.menuItem--menu-all--isOpen:hover .submenuContainer,
+.menuItem--submenu-left--isOpen:hover .submenuContainer,
+.menuItem--submenu-right--isOpen:hover .submenuContainer{
+    display: block;
+}
+.menuItem--menu-all--isOpen:hover .styledLinkIcon{
+    color: var(--purple);
+}
+
+/* Submenu */
+.submenu{
+    justify-content: space-between;
+}
+.submenuContainer{
+    display: none;
+    position: absolute!important;
+    width: calc(100% - 220px);
+    right: 0;
+}
+.submenuWrapper{
+    width: 935px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bgGray);
+    border: none;
+    border-top: 6px solid var(--purpleLight);
+}
+.menuItem--submenu-left .submenuWrapper{
+    left: 0;
+    right: auto;
+}
+.menuItem--submenu-right .submenuWrapper{
+    right: 0;
+    left: auto;
+}
+.menuContainerNav{
+    width: 100%;
+}
+.submenu .menuItem{
+    min-width: 33.33%;
+}
+.submenu .styledLinkContent{
+    padding: .5rem;
+}
+
+/* Submenu - ALL */
+.menuItem--menu-all .submenuContainer,
+.menuItem--menu-all .submenuWrapper{
+    width: 100%;
+}
+
+/* Footer */
+.styledLink--footer-menu-item,
+.styledLink--footer-menu {
+    color: var(--grayMedium);
+    font-weight: normal;
+}
+.styledLinkContent--footer-menu-item:hover,
+.styledLinkContent--footer-menu:hover{
+    background: transparent;
+    color: var(--colorSecondary);
+}
+
+@media only screen and (max-width: 639px) {
+
+    .styledLinkContent--footer-menu-item,
+    .styledLinkContent--footer-menu {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 3px 0;
+    }
+
+}
+
+@media only screen and (min-width: 640px) {
+
+    .styledLinkContent--footer-menu-item,
+    .styledLinkContent--footer-menu {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 5px 0;
+    }
+
+}

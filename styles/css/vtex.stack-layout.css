@@ -1,0 +1,10 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--summary-buy-content,
+.stackItem--seals {
+  top: auto;
+  bottom: 0;
+  width: 100%;
+}

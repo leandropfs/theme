@@ -1,0 +1,154 @@
+{
+  "store.custom#trabalhe-conosco": {
+    "blocks": [
+      "flex-layout.row#trabalhe-conosco-container"
+    ]
+  },
+
+  "flex-layout.row#trabalhe-conosco-container": {
+    "children":[
+      "flex-layout.col#trabalhe-conosco-container"
+    ]
+  },
+
+  "flex-layout.col#trabalhe-conosco-container": {
+    "children": [
+      "rich-text#trabalhe-conosco-title",
+      "rich-text#trabalhe-conosco-text",
+      "flex-layout.row#form"
+    ]
+  },
+
+  "rich-text#trabalhe-conosco-title": {
+    "props":{
+      "text": "# Trabalhe Conosco",
+      "blockClass": "heading"
+    }
+  },
+
+  "rich-text#trabalhe-conosco-text": {
+    "props":{
+      "text": "Envie seu currículo atualizado para o nosso banco de dados que selecionaremos as melhores vagas para você."
+    }
+  },
+
+  "flex-layout.row#form": {
+    "children": [
+      "flex-layout.col#form"
+    ]
+  },
+
+  "flex-layout.col#form": {
+    "children":[
+      "form"
+    ],
+    "props": {
+      "blockClass": "form-trabalhe-conosco"
+    }
+  },
+
+  "form": {
+    "props": {
+      "entity": "TC",
+      "schema": "trabalhe-conosco"
+    },
+    "children": [
+      "flex-layout.row#form-content",
+      "form-input.textarea#mensagem",
+      "form-input.upload#curriculo",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+
+  "flex-layout.row#form-content": {
+    "children":[
+      "flex-layout.col#form-dados",
+      "flex-layout.col#form-dados-contato"
+    ],
+    "props": {
+      "rowGap": 5,
+      "colGap": 5,
+      "marginBottom": 5
+    }
+  },
+
+  "flex-layout.col#form-dados": {
+    "children":[
+      "form-input.text#nome",
+      "form-input.text#idade"
+    ]
+  },
+
+  "flex-layout.col#form-dados-contato": {
+    "children":[
+      "form-input.text#emailTC",
+      "form-input.text#telefone"
+    ]
+  },
+  
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "form-input.text#nome": {
+    "props": {
+      "pointer": "#/properties/curriculo_nome",
+      "label": "",
+      "placeholder": "Nome"
+    }
+  },
+
+  "form-input.text#idade": {
+    "props": {
+      "pointer": "#/properties/curriculo_idade",
+      "label": "",
+      "placeholder": "Idade"
+    }
+  },
+
+  "form-input.text#emailTC": {
+    "props": {
+      "pointer": "#/properties/curriculo_email",
+      "label": "",
+      "placeholder": "E-mail"
+    }
+  },
+
+  "form-input.text#telefone": {
+    "props": {
+      "pointer": "#/properties/curriculo_telefone",
+      "label": "",
+      "placeholder": "Telefone"
+    }
+  },
+
+  "form-input.textarea#mensagem": {
+    "props": {
+      "pointer": "#/properties/curriculo_mensagem",
+      "label": "",
+      "placeholder": "Breve resumo profissional"
+    }
+  },
+
+  "form-input.upload#curriculo": {
+    "props": {
+      "pointer": "#/properties/curriculo_anexo"
+    }
+  },
+
+  "form-submit": {
+    "props": {
+      "label": "Enviar"
+    }
+  }
+}

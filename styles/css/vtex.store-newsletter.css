@@ -1,0 +1,46 @@
+.newsletterForm {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0 7rem;
+}
+.nameInputContainer,
+.emailInputContainer {
+    flex-grow: 1;
+}
+.newsletterForm :global(.vtex-input-prefix__group) {
+    border: none;
+}
+.newsletterForm :global(.vtex-styleguide-9-x-input) {
+    background-color: #fff;
+    color: var(--gray);
+}
+.newsletterForm :global(.vtex-button) {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.defaultSuccessMessage{
+    font-size: 0;
+    text-align: center;
+}
+.defaultSuccessMessage::after{
+    content: "E-mail cadastrado com sucesso!";
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    background: var(--green);
+    border-radius: var(--radius);
+    padding: .8rem 2rem;
+}
+
+@media only screen and (max-width: 639px) {
+    .newsletterForm{
+        flex-direction: column;
+        padding: 0;
+    }
+    .newsletterForm :global(.vtex-button) {
+        width: 100%;
+    }
+}

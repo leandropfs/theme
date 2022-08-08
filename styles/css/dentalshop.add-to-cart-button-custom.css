@@ -1,0 +1,28 @@
+.buttonText{
+    text-transform: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.buttonDataContainer{
+    flex-grow: 1;
+}
+:global(.vtex-flex-layout-0-x-flexRow--summary-buy-content) :global(.vtex-button){
+    min-height: 2rem;
+    max-height: 35px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--summary-buy-content) :global(.vtex-button__label){
+    padding: .25rem .5rem!important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--summary-buy-content) .buttonDataContainer::before{
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url('assets/icon-cart-white.svg') no-repeat;
+}
+:global(.vtex-flex-layout-0-x-flexRow--summary-buy-content) .buttonText{
+    font-size: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--summary-buy-content) :global(.vtex-button):disabled .buttonText{
+    font-size: 1rem;
+}

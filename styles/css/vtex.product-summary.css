@@ -1,0 +1,96 @@
+/* Global */
+.container{
+  padding: .5rem 1vw;
+  border: none;
+  transition: .2s;
+  border-radius: 4px;
+  text-align: left;
+}
+.element{
+  padding: 0;
+  justify-content: space-between;
+}
+.column{
+  text-align: left;
+  justify-content: left !important;
+}
+
+/* Search result */
+.containerNormal{
+  margin: 0 auto;
+}
+
+/* Sku Container */
+.skuSelectorContainer{
+  display: flex;
+  justify-content: space-around;
+  margin: .5rem 0!important;
+  padding: 0!important;
+}
+.skuSelectorSubcontainer--tamanho{
+  flex-grow: 1;
+}
+
+/* Sku itens */
+.frameAround{
+  display: none;
+}
+.skuSelectorInternalBox{
+  border-radius: 0;
+}
+.skuSelectorItem{
+  background-color: #fff;
+  height: 32px;
+}
+.skuSelectorItem--selected{
+  background-color: var(--colorSecondary);
+}
+.skuSelectorItem--selected .skuSelectorInternalBox{
+  border-color: var(--colorSecondary);
+}
+.skuSelectorItem--selected .valueWrapper{
+  color: #fff;
+}
+.skuSelectorItemTextValue{
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+/* Name */
+.nameContainer{
+  padding: .5rem 0;
+  text-align: left;
+  margin-bottom: auto;
+}
+.productNameContainer{
+  overflow: visible;
+  width: 100%;
+  line-height: .9em;
+}
+.brandName{
+  font-weight: normal;
+  font-size: .9rem;
+  color: #000;
+}
+
+/* Description */
+.description{
+  height: 34px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: .5rem;
+}
+.description::after{
+  content: "[...]";
+  align-self: flex-end;
+  margin-bottom: 3px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--summaryListNameDesktop) .description::after{
+  display: none;
+}
+
+/* price */
+.column{
+  justify-content: center;
+  flex-wrap: wrap;
+}

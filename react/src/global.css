@@ -1,0 +1,236 @@
+:root{
+    --blue: #0669de;
+    --orange: #e37d38;
+    --purple: #50137c;
+    --purpleLight: #8300d1;
+    --green: #46c152;
+    --greenDark: #34973e;
+    --gray: #555;
+    --grayMedium: #8a8f93; 
+    --grayLight: #b9bbbc;
+    --grayBorder: #dddddd;
+    --bgGray: #f3f4f4;
+    --bgGrayPurple: #f0e9fc;
+    --colorPrimary: var(--green);
+    --colorSecondary: var(--purple);
+    --radius: .25rem;
+    --fontCustom: "roboto-web", Arial, Helvetica, sans-serif;
+    --fontDefault: "roboto-web", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+.vtex-button.bg-action-primary{
+    background-color: var(--green);
+    border-color: var(--green);
+}
+.vtex-button.bg-action-primary:hover{
+    background-color: var(--greenDark);
+    border-color: var(--greenDark);
+}
+
+/* Scroll */
+::-webkit-scrollbar-track{background-color: var(--grayBorder);}
+::-webkit-scrollbar{width: 5px; background: var(--grayBorder);}
+::-webkit-scrollbar-thumb{background: var(--grayMedium);}
+
+.vtex-category-menu-2-x-submenuList::-webkit-scrollbar{
+    height: 5px;
+}
+
+/* Menu MObile */
+.vtex-category-menu-2-x-sidebarContent > li.list:first-child .vtex-category-menu-2-x-sidebarItemContainer{
+    border: none;
+}
+.vtex-category-menu-2-x-sidebarItem .vtex-category-menu-2-x-sidebarItemContainer + li.list{
+    color: #fff!important;
+    padding: .25rem 0 1rem;
+}
+
+/* Login mobile */
+.vtex-login-2-x-buttonLink span.flex > div.flex,
+.vtex-login-2-x-buttonLink span.flex{
+    margin: 0;
+}
+
+/* Title */
+.title-default{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #000;
+}
+.title-default::before {
+    content: "";
+    display: inline-block;
+    margin-right: .5rem;
+    width: 43px;
+    height: 11px;
+    background-image: url('../../assets/brand-element.svg');
+}
+
+/* Newsletter */
+#newsletter-input::placeholder{
+    color: var(--grayMedium);
+}
+
+/* Tachions custom */
+.ph2-xl{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Filter */
+.vtex-search-result-3-x-accordionFilter .ReactCollapse--content > .pl8{
+    padding: 0;
+}
+
+/* Product - Shipping */
+.vtex-address-form__postalCode-forgottenURL a{
+    color: #000;
+}
+
+/* Form */
+.vtex-flex-layout-0-x-flexColChild--form-trabalhe-conosco .vtex-dropdown > span{
+    font-size: 0;
+    margin: 1rem 0 0;
+}
+.vtex-flex-layout-0-x-flexColChild--form-trabalhe-conosco .vtex-dropdown > span::after{
+    content: "Anexe seu currículo:";
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.vtex-checkbox__label {
+    font-size: .9rem;
+}
+
+.vtex-store-components-3-x-productDescriptionText {
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+
+.vtex-toast-container.right-0 {
+    width: 100% !important;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 0 !important;
+    height: 100vh;
+    top: 0 !important;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dentalshop-sku-list-custom-1-x-skuContentWrapper .pr7.vtex-flex-layout-0-x-stretchChildrenWidth {
+    padding: 0;
+}
+
+.dentalshop-sku-list-custom-1-x-skuImage {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.dentalshop-sku-list-custom-1-x-skuImage a {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABrklEQVRIie3WP2sVQRSG8d8GEhG9UTt7g41FTLCxt7AQrcTCVizF3mijyBUECX4DLRSDYCFoYWewSVRS2NmukNgoIsQma7Fz5TLO7B+8dveFU+zue54zM2d2dplqqv+koof3FC7gNE7gcLj/DZ/wDi/wYVKDO4/3qDrGBs79S8HjeNWjYBwvsdC36CX8TMC2cQMncSDEElbCs9j/Axe7FCxwF3sJyDMMGnIHWEvk7eGOhv1U4GEicVS0y0YsMsUrrOYY9zMJ25pnGmseOxnWvdh8NWOs1D0d11wAfEGJYbg3rpsNvCsj0yJ2G4yLEXSY8Awjz1IDb3fE3GwwVf5e5jLhKSPPoIW5OYNZk1fbRpydwfUwipyORdePE55HLTnjqnBtdLEqvywrUeKcuqel/Oa61cB7EMPWM8a+r9MhfM2w3kq09gi2Mglruh8gzzOMrVAjqaPqr0uu+HzLTHNFNwK7UfvxNAPYUR8OyzgYYlnd09zyPgnMTipwWfqd7RplYPT52fijgfrLkptNblVua9mQXUezD2dwVn0cLqh7Ct/xGR/xGm/wqyN3qqkmr98Yh/1ZwqXF1gAAAABJRU5ErkJggg==");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+}
+
+.dentalshop-sku-list-custom-1-x-skuImage img {
+    display: none;
+}
+
+.dentalshop-sku-list-custom-1-x-selectedSkuContentWrapper .vtex-flex-layout-0-x-flexColChild {
+    display: flex;
+    align-items: center;
+}
+
+.vtex-flex-layout-0-x-flexCol--mobile-sku-image-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.vtex-flex-layout-0-x-flexColChild--mobile-sku-image-name {
+    margin-right: .5rem;
+}
+
+.vtex-flex-layout-0-x-flexCol--mobile-sku-quantity-buy-button {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 639px) {
+    .vtex-flex-layout-0-x-flexRow--sku-list-custom {
+        padding: .5rem 0;
+        border-bottom: 1px solid #dde;
+    }
+}
+
+/*My Account*/
+
+.vtex-account .b--danger {
+    border-color: #ec5d57!important;
+    background: #FFF0F1;
+    color: #ec5d57!important;
+}
+
+.vtex-account .vtex-input__error, .vtex-account .vtex-dropdown__error {
+    background: #ec5d57!important;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    margin-top: -3px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.vtex-account_menu-link[href='#/profile'] {
+    display: none;
+}
+
+@media only screen and (max-width: 639px) {
+    .vtex-my-account-1-x-menu {
+        padding: 1rem;
+    }
+
+    .vtex-my-account-1-x-menu .f6 {
+        font-size: 1.2rem;
+    }
+
+    .vtex-account .t-small {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 639px) {
+    .profile-header .vtex-pageHeader-link__container {
+        display: none;
+    }
+
+    .vtex-account  .vtex-pageHeader__container {
+        padding-top: 0;
+    }
+}
+
+.vtex-my-account-1-x-userInfo {
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.myo-progress-bar, button.dt.mv3.pl0.bw0.bg-transparent.input-reset.c-muted-1.lh-solid.f7.fw6 {
+    display: none;
+}
+
+.vtex-account .w-100.w-80-m {
+    width: 100%;
+}

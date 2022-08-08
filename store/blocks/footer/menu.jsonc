@@ -1,0 +1,190 @@
+{
+  "vtex.menu@2.x:menu#institucionais": {
+      "props": {
+          "orientation": "vertical",
+          "blockClass": "footer-menu"
+      },
+      "children": [
+          // "menu-item#sobre",
+          // "menu-item#condicoes-extras",
+          // "menu-item#politica-privacidade",
+          // "menu-item#politica-devolucao",
+          // "menu-item#politica-comercial",
+          // "menu-item#links-dentalshop"
+          // "menu-item#trabalhe-conosco"
+      ]
+  },
+  "menu-item#sobre": {
+    "props": {
+      "id": "sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/sobre-a-dentalshop",
+        "noFollow": false,
+        "tagTitle": "Sobre a Dentalshop",
+        "text": "Sobre a Dentalshop"
+      }
+    }
+  },
+  "menu-item#condicoes-extras": {
+    "props": {
+      "id": "sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/condicoes-extras",
+        "noFollow": false,
+        "tagTitle": "Condições Extras",
+        "text": "Condições Extras"
+      }
+    }
+  },
+  "menu-item#politica-privacidade": {
+    "props": {
+      "id": "sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#politica-devolucao": {
+    "props": {
+      "id": "sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/politica-de-devolucao",
+        "noFollow": false,
+        "tagTitle": "Política de Devolução",
+        "text": "Política de Devolução"
+      }
+    }
+  },
+  "menu-item#politica-comercial": {
+    "props": {
+      "id": "sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/politica-comercial",
+        "noFollow": false,
+        "tagTitle": "Política Comercial",
+        "text": "Política Comercial"
+      }
+    }
+  },
+  "menu-item#links-dentalshop": {
+    "props": {
+      "id": "sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/links-dentalshop",
+        "noFollow": false,
+        "tagTitle": "Links Dentalshop",
+        "text": "Links Dentalshop"
+      }
+    }
+  },
+  "menu-item#trabalhe-conosco": {
+    "props": {
+      "id": "sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "Trabalhe Conosco",
+        "text": "Trabalhe Conosco"
+      }
+    }
+  },
+
+  // Area do cliente
+  "vtex.menu@2.x:menu#area-cliente": {
+    "props": {
+        "orientation": "vertical",
+        "blockClass": "footer-menu"
+    },
+    "children": [
+        // "menu-item#minha-conta",
+        // "menu-item#acompanhe-pedido",
+        // "menu-item#2-via-boleto"
+    ]
+  },
+  "menu-item#minha-conta": {
+    "props": {
+      "id": "minha-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
+      }
+    }
+  },
+  "menu-item#acompanhe-pedido": {
+    "props": {
+      "id": "acompanhe-seu-pedido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/order",
+        "noFollow": false,
+        "tagTitle": "Acompanhe seu Pedido",
+        "text": "Acompanhe seu Pedido"
+      }
+    }
+  },
+  "menu-item#2-via-boleto": {
+    "props": {
+      "id": "2-via-boleto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/order",
+        "noFollow": false,
+        "tagTitle": "2ª Via do boleto",
+        "text": "2ª Via do boleto"
+      }
+    }
+  }
+}

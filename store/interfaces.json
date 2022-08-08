@@ -1,0 +1,33 @@
+{
+    "upnext-components": {
+        "component": "GlobalCss"
+    },
+    "product-description-custom": {
+        "component": "ProductDescription"
+    },
+    "seals-context": {
+        "component": "SealsContextProvider",
+        "composition": "children",
+        "allowed": "*"
+    },
+    "seals": {
+        "component": "Seals"
+    },
+    "category-description-custom": {
+        "component": "CategoryDescription"
+    },
+    "order-payment-method-dataName": {
+        "component": "OrderPaymentMethodName",
+        "composition": "children",
+        "allowed": "*"
+    },
+    "order-notices": {
+        "component": "OrderNotices"
+    },
+    "my-account-profile": {
+        "component": "MyAccountProfile"
+    },
+    "my-account-links": {
+        "component": "MyAccountLinks"
+    }
+}

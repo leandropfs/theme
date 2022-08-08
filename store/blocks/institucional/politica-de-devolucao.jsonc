@@ -1,0 +1,101 @@
+{
+  "store.custom#politica-de-devolucao": {
+    "blocks": [
+      "flex-layout.row#politica-de-devolucao-content"
+    ]
+  },
+
+  "flex-layout.row#politica-de-devolucao-content": {
+    "children": [
+      "flex-layout.col#politica-de-devolucao-content"
+    ]
+  },
+
+  "flex-layout.col#politica-de-devolucao-content": {
+    "children": [
+      "rich-text#politica-de-devolucao-title",
+      "flex-layout.col#politica-de-devolucao-content-description"
+    ]
+  },
+
+  "rich-text#politica-de-devolucao-title": {
+    "props": {
+      "text": "# Política de Devolução",
+      "blockClass": "heading"
+    }
+  },
+
+  "flex-layout.col#politica-de-devolucao-content-description": {
+    "props":{
+      "blockClass": "content-description"
+    },
+    "children":[
+      "flex-layout.col#politica-de-devolucao-content-description-text"
+    ]
+  },
+
+  "flex-layout.col#politica-de-devolucao-content-description-text": {
+    "props":{
+      "blockClass": "politica-de-devolucao-content-description"
+    },
+    "children": [
+      "flex-layout.col#politica-de-devolucao-visao-geral",
+      "flex-layout.col#politica-de-devolucao-devolucao-e-troca",
+      "flex-layout.col#politica-de-devolucao-prazos",
+      "flex-layout.col#politica-de-devolucao-condicoes-de-recebimento"
+    ]
+  },
+
+  "flex-layout.col#politica-de-devolucao-visao-geral": {
+    "children":[
+      "rich-text#politica-de-devolucao-visao-geral-text"
+    ]
+  },
+
+  "rich-text#politica-de-devolucao-visao-geral-text": {
+    "props": {
+      "text": "## **Visão Geral** \n A Dentalshop não envia produtos em embalagens abertas ou avariadas, caso verifique alguma irregularidade no produto adquirido entre em contato com o nosso setor de relacionamento em até sete (7) dias corridos do recebimento. \n \n Caso haja desistência da compra ou o produto esteja em desacordo com o pedido, o cliente deverá entrar em contato antes do envio do produto. \n \n Nossa política de troca e devolução preserva os direitos do cliente, agindo de acordo com as orientações encontradas no código de defesa do consumidor.",
+      "blockClass": "subtitle-institucional"
+    }
+  },
+
+  "flex-layout.col#politica-de-devolucao-devolucao-e-troca": {
+    "children":[
+      "rich-text#politica-de-devolucao-devolucao-e-troca.text"
+    ]
+  },
+
+  "rich-text#politica-de-devolucao-devolucao-e-troca.text": {
+    "props": {
+      "text": "## **Devolução e Troca do Produto** \n A retirada do produto a ser devolvido será realizada no endereço de entrega através da Logística Dentalshop, quando o endereço for situado na região metropolitana de Porto Alegre. \n \n Em outros casos, poderá ser feita a postagem do produto conforme acordado entre o cliente e a Dentalshop. \n \n O ressarcimento do produto devolvido poderá ser através de abatimento do valor no boleto, cancelamento de cartão de crédito, depósito bancário na conta do cliente, ou ainda, poderá ficar de crédito para utilização na próxima compra.",
+      "blockClass": "subtitle-institucional"
+    }
+  },
+
+  "flex-layout.col#politica-de-devolucao-prazos": {
+    "children":[
+      "rich-text#politica-de-devolucao-prazos"
+    ]
+  },
+
+  "rich-text#politica-de-devolucao-prazos": {
+    "props":{
+      "text": "## **Prazos** \n O consumidor tem até 7 (sete) dias corridos para se arrepender da compra e comunicar a desistência. Aceitaremos a devolução em até 30 dias corridos da compra. A devolução dos valores será realizada, no menor prazo possível, devendo ser efetuada em até 10 (dez) dias úteis.",
+      "blockClass": "subtitle-institucional"
+    }
+  },
+
+  "flex-layout.col#politica-de-devolucao-condicoes-de-recebimento": {
+    "children":[
+      "rich-text#politica-de-devolucao-condicoes-de-recebimento"
+    ]
+  },
+
+  "rich-text#politica-de-devolucao-condicoes-de-recebimento": {
+    "props": {
+      "text": "## **Condições para Recebimento da Mercadoria** \n O produto deve ser devolvido sem uso, em sua embalagem original, acompanhado dos manuais, acessórios, etiquetas e nota fiscal.",
+      "blockClass": "subtitle-institucional"
+    }
+  }
+}
+

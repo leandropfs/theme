@@ -1,0 +1,429 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#all",
+      "menu-item#endodontia",
+      "menu-item#ortodontia",
+      "menu-item#dentistica",
+      "menu-item#descartaveis",
+      "menu-item#instrumentais",
+      "menu-item#vestuario",
+      "menu-item#harmonizacao"
+    ]
+  },
+
+  // Todos Departamentos
+  "menu-item#all": {
+    "props": {
+      "id": "all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "tagTitle": "Todas as categorias",
+        "text": "Ver todas as categorias"
+      },
+      "iconProps": {
+				"id": "hpa-hamburguer-menu",
+				"size": 20,
+				"viewBox": "0 0 16 16",
+        "activeClassName": "db",
+        "mutedClassName": "db"
+			},
+      "blockClass": "menu-all"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#all"
+    ]
+  },
+  "vtex.menu@2.x:submenu#all": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#desktop",
+      "image#banner-menu"
+    ]
+  },
+  "category-menu#desktop": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "departments": [
+        { "id": 3268 }, //Acadêmicos
+        { "id": 3269 }, //Anestésicos
+        { "id": 3271 }, //Biosegurança
+        { "id": 3272 }, //Brocas
+        { "id": 3429 }, //Cimentos
+        { "id": 3256 }, //Cirurgia
+        { "id": 3264 }, //Dentistica e estética
+        { "id": 3503 }, //Descartáveis
+        { "id": 3209 }, //Endodontia
+        { "id": 3377 }, //Equipamentos, Periféricos
+        { "id": 3366 }, //Harmonização Orofacial
+        { "id": 3526 }, //Higiene oral
+        { "id": 3343 }, //Imaginologia e Radiologia
+        { "id": 3357 }, //Implantodontia
+        { "id": 3440 }, //Instrumentais
+         //Laboratório
+        { "id": 2986 }, //Ortodontia
+         //Prótese e Moldagem
+         { "id": 3270 } //Vestuário
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-menu": {
+    "props": {
+      "src": "assets/banner-menu.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "blockClass": "banner-menu"
+    }
+  },
+
+  // Endodontia
+  "menu-item#endodontia": {
+    "props": {
+      "id": "endodontia",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 3209,
+        "text": "Endodontia"
+      },
+      "blockClass": "submenu-left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#endodontia"
+    ]
+  },
+  "vtex.menu@2.x:submenu#endodontia": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#endodontia",
+      "image#banner-endodontia"
+    ]
+  },
+  "category-menu#endodontia": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "right",
+      "departments": [
+        { "id": 3209 } //Endodontia
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-endodontia": {
+    "props": {
+      "src": "assets/banner-menu-ortodontia.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "link": {
+        "url": "/endodontia"
+      },
+      "blockClass": "banner-menu"
+    }
+  },
+
+  // Ortodontia
+  "menu-item#ortodontia": {
+    "props": {
+      "id": "Ortodontia",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 2986,
+        "text": "Ortodontia"
+      },
+      "blockClass": "submenu-left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#ortodontia"
+    ]
+  },
+  "vtex.menu@2.x:submenu#ortodontia": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#ortodontia",
+      "image#banner-ortodontia"
+    ]
+  },
+  "category-menu#ortodontia": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "right",
+      "departments": [
+        { "id": 2986 } //Ortodontia
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-ortodontia": {
+    "props": {
+      "src": "assets/banner-menu-ortodontia.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "link": {
+        "url": "/ortodontia"
+      },
+      "blockClass": "banner-menu"
+    }
+  },
+
+  // Dentista e Estética
+  "menu-item#dentistica": {
+    "props": {
+      "id": "dentistica",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 2986,
+        "text": "Dentista e Estética"
+      },
+      "blockClass": "submenu-left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#dentistica"
+    ]
+  },
+  "vtex.menu@2.x:submenu#dentistica": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#dentistica",
+      "image#banner-dentistica"
+    ]
+  },
+  "category-menu#dentistica": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "right",
+      "departments": [
+        { "id": 3264 } //dentistica
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-dentistica": {
+    "props": {
+      "src": "assets/banner-menu-ortodontia.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "link": {
+        "url": "/dentistica-e-estetica"
+      },
+      "blockClass": "banner-menu"
+    }
+  },
+
+  // Descartáveis
+  "menu-item#descartaveis": {
+    "props": {
+      "id": "descartaveis",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 2986,
+        "text": "Descartáveis"
+      },
+      "blockClass": "submenu-left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#descartaveis"
+    ]
+  },
+  "vtex.menu@2.x:submenu#descartaveis": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#descartaveis",
+      "image#banner-descartaveis"
+    ]
+  },
+  "category-menu#descartaveis": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "right",
+      "departments": [
+        { "id": 3503 } //descartaveis
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-descartaveis": {
+    "props": {
+      "src": "assets/banner-menu-ortodontia.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "link": {
+        "url": "/descartaveis"
+      },
+      "blockClass": "banner-menu"
+    }
+  },
+
+  // Instrumentais
+  "menu-item#instrumentais": {
+    "props": {
+      "id": "instrumentais",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 2986,
+        "text": "Instrumentais"
+      },
+      "blockClass": "submenu-left"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#instrumentais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#instrumentais": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#instrumentais",
+      "image#banner-instrumentais"
+    ]
+  },
+  "category-menu#instrumentais": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "right",
+      "departments": [
+        { "id": 3440 } //instrumentais
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-instrumentais": {
+    "props": {
+      "src": "assets/banner-menu-ortodontia.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "link": {
+        "url": "/instrumentais"
+      },
+      "blockClass": "banner-menu"
+    }
+  },
+
+  // Vestuário
+  "menu-item#vestuario": {
+    "props": {
+      "id": "vestuario",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 2986,
+        "text": "Vestuário"
+      },
+      "blockClass": "submenu-right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#vestuario"
+    ]
+  },
+  "vtex.menu@2.x:submenu#vestuario": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#vestuario",
+      "image#banner-vestuario"
+    ]
+  },
+  "category-menu#vestuario": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "right",
+      "departments": [
+        { "id": 3270 } //vestuario
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-vestuario": {
+    "props": {
+      "src": "assets/banner-menu-ortodontia.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "link": {
+        "url": "/vestuario"
+      },
+      "blockClass": "banner-menu"
+    }
+  },
+
+  // Harmonização Orofacial
+  "menu-item#harmonizacao": {
+    "props": {
+      "id": "harmonizacao",
+      "type": "category",
+      "highlight": true,
+      "itemProps": {
+        "categoryId": 2986,
+        "text": "Harmonização Orofacial"
+      },
+      "blockClass": "submenu-right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#harmonizacao"
+    ]
+  },
+  "vtex.menu@2.x:submenu#harmonizacao": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "category-menu#harmonizacao",
+      "image#banner-harmonizacao"
+    ]
+  },
+  "category-menu#harmonizacao": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "right",
+      "departments": [
+        { "id": 3366 } //harmonizacao
+      ],
+      "sortSubcategories": "name"
+    }
+  },
+  "image#banner-harmonizacao": {
+    "props": {
+      "src": "assets/banner-menu-ortodontia.png",
+      "maxWidth": 396,
+      "maxHeight": 500,
+      "link": {
+        "url": "/harmonizacao-orofacial"
+      },
+      "blockClass": "banner-menu"
+    }
+  }
+}

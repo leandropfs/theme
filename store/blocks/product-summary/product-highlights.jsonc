@@ -1,0 +1,1742 @@
+{
+
+  // Highlights - 183
+  // "vtex.product-highlights@2.x:product-highlights#183": {
+  //   "children": ["product-highlight-text#183"],
+  //   "props": {
+  //     "blockClass": "highlights",
+  //     "type": "collection",
+  //     "filter": {
+  //       "type": "show",
+  //       "highlightNames": ["183 - Oportunidades de Congresso"]
+  //     }
+  //   }
+  // },
+  // "product-highlight-text#183": {
+  //   "props": {
+  //     "markers": [
+  //       "popup",
+  //       "seal",
+  //       "p",
+  //       "small",
+  //       "b"
+  //     ],
+  //     "message": "<popup>Aqui o DESCONTO não foi adiado. Confira!</popup><seal>Oportunidades de Congresso</seal>",
+  //     "blockClass": "highlights-purple"
+  //   }
+  // },
+  // highlights-purple: #8300d1 | Promoção do mês
+  // highlights-purpleDark: #50137c | Confira a regra
+  // highlights-purpleLight: #a875e0 | Leve + Pague -
+  // highlights-blue: #6d6efd | Ganhe brinde
+
+  // Highlights - 153
+  "vtex.product-highlights@2.x:product-highlights#153": {
+    "children": ["product-highlight-text#153"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["DENTALSHOP | Abril Imbatível"]
+      }
+    }
+  },
+  "product-highlight-text#153": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Aqui você sempre GANHA!</popup><seal>Abril Imbatível</seal>",
+      "blockClass": "highlights-purple"
+    }
+  },
+
+  // 00. MEDIX - Luva de Látex Com Pó
+  "vtex.product-highlights@2.x:product-highlights#medix": {
+    "children": ["product-highlight-text#medix"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["00. MEDIX - Luva de Látex Com Pó"]
+      }
+    }
+  },
+  "product-highlight-text#medix": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Para melhor atender nossos clientes, este produto está limitado a 10 unidades por cliente</popup><seal>Confira a regra</seal>",
+      "blockClass": "highlights-purpleDark"
+    }
+  },
+
+  // 01. AMERICAN BURRS - Escova Robinson
+  "vtex.product-highlights@2.x:product-highlights#americanBurrsEscova": {
+    "children": ["product-highlight-text#americanBurrsEscova"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. AMERICAN BURRS - Escova Robinson"]
+      }
+    }
+  },
+  "product-highlight-text#americanBurrsEscova": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Escova Robinson</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. AMERICAN BURRS - Taça de Borracha
+  "vtex.product-highlights@2.x:product-highlights#americanBurrsTaca": {
+    "children": ["product-highlight-text#americanBurrsTaca"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. AMERICAN BURRS - Taça de Borracha"]
+      }
+    }
+  },
+  "product-highlight-text#americanBurrsTaca": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Taça de Borracha Branca Ultra-Soft</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+  
+  // 01. AMERICAN BURSS - Ponta Diamantada Invicta
+  "vtex.product-highlights@2.x:product-highlights#americanBurrsPonta": {
+    "children": ["product-highlight-text#americanBurrsPonta"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. AMERICAN BURSS - Ponta Diamantada Invicta"]
+      }
+    }
+  },
+  "product-highlight-text#americanBurrsPonta": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 2 Pontas Diamantada Invicta</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - R$249 Resina Neo Spectra
+  "vtex.product-highlights@2.x:product-highlights#dentsplyResina": {
+    "children": ["product-highlight-text#dentsplyResina"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - R$249 Resina Neo Spectra"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplyResina": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre acima de R$ 249,00 em produtos Dentsply Sirona e Ganhe 3 Resina Neo Spectra</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Ponta Enhance
+  "vtex.product-highlights@2.x:product-highlights#dentsplyPonta": {
+    "children": ["product-highlight-text#dentsplyPonta"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Ponta Enhance"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplyPonta": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre 2 Pontas Enhance e Ganhe 1 Resina Spectra Basic na cor A2</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Kit Palodent
+  "vtex.product-highlights@2.x:product-highlights#dentsplyKit": {
+    "children": ["product-highlight-text#dentsplyKit"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Kit Palodent"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplyKit": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 3 Resina Spectra Smart</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Motor Endodôntico
+  "vtex.product-highlights@2.x:product-highlights#dentsplyMotor": {
+    "children": ["product-highlight-text#dentsplyMotor"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Motor Endodôntico"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplyMotor": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Gutta Percha Trunatomy Prime mais 1 Lima Rotatória Trunatomy 16 - 31mm</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Resina Neo Spectra
+  "vtex.product-highlights@2.x:product-highlights#dentsplyResinaNeo": {
+    "children": ["product-highlight-text#dentsplyResinaNeo"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Resina Neo Spectra"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplyResinaNeo": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 4 unidades e Pague apenas R$ 134,25 cada</popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Resina Spectra Smart
+  "vtex.product-highlights@2.x:product-highlights#dentsplyResinaSpectra": {
+    "children": ["product-highlight-text#dentsplyResinaSpectra"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Resina Spectra Smart"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplyResinaSpectra": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 4 unidades e Pague apenas R$ 44,90 cada</popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 01. FGM - Clareador Whiteness Simple 22% com 3 seringas
+  "vtex.product-highlights@2.x:product-highlights#fgmClareador": {
+    "children": ["product-highlight-text#fgmClareador"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. FGM - Clareador Whiteness Simple 22% com 3 seringas"]
+      }
+    }
+  },
+  "product-highlight-text#fgmClareador": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe Clareador Whiteness Simple 22% com 3 seringas</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. FGM - Clareador Mini Kit Whiteness Perfect 16%
+  "vtex.product-highlights@2.x:product-highlights#fgmClareador16": {
+    "children": ["product-highlight-text#fgmClareador16"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. FGM - Clareador Mini Kit Whiteness Perfect 16%"]
+      }
+    }
+  },
+  "product-highlight-text#fgmClareador16": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal",
+        "p",
+        "small"
+      ],
+      "message": "<popup><p>Compre e Ganhe 1 Clareador Mini Kit Whiteness Perfect 16%</p> <small>ECONOMIZE R$ 57,73</small></popup><seal>Ganhe Mini Kit Perfect</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. FGM - Vittra Unique
+  "vtex.product-highlights@2.x:product-highlights#fgmVittra": {
+    "children": ["product-highlight-text#fgmVittra"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. FGM - Vittra Unique"]
+      }
+    }
+  },
+  "product-highlight-text#fgmVittra": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Selante Prevent Matizado</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. KULZER - Fixador e Revelador Selekt+
+  "vtex.product-highlights@2.x:product-highlights#kulzerFixador": {
+    "children": ["product-highlight-text#kulzerFixador"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. KULZER - Fixador e Revelador Selekt+"]
+      }
+    }
+  },
+  "product-highlight-text#kulzerFixador": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal",
+        "p"
+      ],
+      "message": "<popup><p>Compre e Ganhe 1 Fixador mais 1 Revelador Selekt+</p> <p>ECONOMIZE R$ 27,80</p></popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 03. Rennova Fill
+  "vtex.product-highlights@2.x:product-highlights#rennovaFill": {
+    "children": ["product-highlight-text#rennovaFill"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Fill"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaFill": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$353,88 cada</small><small>6 a 9 unidades por Apenas R$308,79 cada</small><small>Acima de 10 unidades por Apenas R$285,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Fill Lido
+  "vtex.product-highlights@2.x:product-highlights#rennovaFillLido": {
+    "children": ["product-highlight-text#rennovaFillLido"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Fill Lido"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaFillLido": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 379,78 cada</small><small>6 a 9 unidades por Apenas R$ 339,49 cada</small><small>Acima de 10 unidades por Apenas R$292,49 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Lift
+  "vtex.product-highlights@2.x:product-highlights#rennovaLift": {
+    "children": ["product-highlight-text#rennovaLift"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Lift"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaLift": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 368,27 cada</small><small>6 a 9 unidades por Apenas R$ 323,18 cada</small><small>Acima de 10 unidades por Apenas R$287,73 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Lift Lido
+  "vtex.product-highlights@2.x:product-highlights#rennovaLiftLido": {
+    "children": ["product-highlight-text#rennovaLiftLido"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Lift Lido"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaLiftLido": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 401,79 cada</small><small>6 a 9 unidades por Apenas R$ 372,58 cada</small><small>Acima de 10 unidades por Apenas R$316,23 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Skin Lido
+  "vtex.product-highlights@2.x:product-highlights#rennovaSkinLido": {
+    "children": ["product-highlight-text#rennovaSkinLido"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Skin Lido"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaSkinLido": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 315,61 cada</small><small>6 a 9 unidades por Apenas R$ 296,42 cada</small><small>Acima de 10 unidades por Apenas R$277,23 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Deep Lido
+  "vtex.product-highlights@2.x:product-highlights#rennovaDeepLido": {
+    "children": ["product-highlight-text#rennovaDeepLido"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Skin Lido"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaDeepLido": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 446,61 cada</small><small>6 a 9 unidades por Apenas R$ 429,69 cada</small><small>Acima de 10 unidades por Apenas R$ 413,49 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Ultra Deep
+  "vtex.product-highlights@2.x:product-highlights#rennovaUltraDeep": {
+    "children": ["product-highlight-text#rennovaUltraDeep"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Skin Lido"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaUltraDeep": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 470,00 cada</small><small>6 a 9 unidades por Apenas R$ 450,82 cada</small><small>Acima de 10 unidades por Apenas R$ 431,63 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Ultra Deep Lido
+  "vtex.product-highlights@2.x:product-highlights#rennovaUltraDeepLido": {
+    "children": ["product-highlight-text#rennovaUltraDeepLido"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Ultra Deep Lido"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaUltraDeepLido": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 479,59 cada</small><small>6 a 9 unidades por Apenas R$ 460,41 cada</small><small>Acima de 10 unidades por Apenas R$ 441,22 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Diamond
+  "vtex.product-highlights@2.x:product-highlights#rennovaDiamond": {
+    "children": ["product-highlight-text#rennovaDiamond"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Diamond"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaDiamond": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 848,55 cada</small><small>6 a 9 unidades por Apenas R$ 808,01 cada</small><small>Acima de 10 unidades por Apenas R$ 757,10 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Diamond Lido
+  "vtex.product-highlights@2.x:product-highlights#rennovaDiamondLido": {
+    "children": ["product-highlight-text#rennovaDiamondLido"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Diamond Lido"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaDiamondLido": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 886,25 cada</small><small>6 a 9 unidades por Apenas R$ 827,44 cada</small><small>Acima de 10 unidades por Apenas R$ 795,78 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Rennova Elleva
+  "vtex.product-highlights@2.x:product-highlights#rennovaElleva": {
+    "children": ["product-highlight-text#rennovaElleva"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Rennova Elleva"]
+      }
+    }
+  },
+  "product-highlight-text#rennovaElleva": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 1197,56 cada</small><small>6 a 9 unidades por Apenas R$ 1148,49 cada</small><small>Acima de 10 unidades por Apenas R$ 1087,90 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Yvoire Classic Plus
+  "vtex.product-highlights@2.x:product-highlights#yvoireClassicPlus": {
+    "children": ["product-highlight-text#yvoireClassicPlus"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Yvoire Classic Plus"]
+      }
+    }
+  },
+  "product-highlight-text#yvoireClassicPlus": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 2 unidades por Apenas R$ 393,00 cada</small><small>3 a 5 unidades por Apenas R$ 383,00 cada</small><small>6 a 9 unidades por Apenas R$ 373,00 cada</small><small>Acima de 10 unidades por Apenas R$ 362,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Yvoire Volume Plus
+  "vtex.product-highlights@2.x:product-highlights#yvoireVolumePlus": {
+    "children": ["product-highlight-text#yvoireVolumePlus"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Yvoire Volume Plus"]
+      }
+    }
+  },
+  "product-highlight-text#yvoireVolumePlus": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 2 unidades por Apenas R$ 403,00 cada</small><small>3 a 5 unidades por Apenas R$ 393,00 cada</small><small>6 a 9 unidades por Apenas R$ 383,00 cada</small><small>Acima de 10 unidades por Apenas R$ 372,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Yvoire Contour 1ml
+  "vtex.product-highlights@2.x:product-highlights#yvoireContour1ml": {
+    "children": ["product-highlight-text#yvoireContour1ml"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Yvoire Contour 1ml"]
+      }
+    }
+  },
+  "product-highlight-text#yvoireContour1ml": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 2 unidades por Apenas R$ 444,00 cada</small><small>3 a 5 unidades por Apenas R$ 435,00 cada</small><small>6 a 9 unidades por Apenas R$ 431,00 cada</small><small>Acima de 10 unidades por Apenas R$ 426,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Yvoire Contour 2ml
+  "vtex.product-highlights@2.x:product-highlights#yvoireContour2ml": {
+    "children": ["product-highlight-text#yvoireContour2ml"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Yvoire Contour 2ml"]
+      }
+    }
+  },
+  "product-highlight-text#yvoireContour2ml": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 2 unidades por Apenas R$ 852,00 cada</small><small>3 a 5 unidades por Apenas R$ 843,00 cada</small><small>6 a 9 unidades por Apenas R$ 833,00 cada</small><small>Acima de 10 unidades por Apenas R$ 822,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Revanesse Ultra
+  "vtex.product-highlights@2.x:product-highlights#revanesseUltra": {
+    "children": ["product-highlight-text#revanesseUltra"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Revanesse Ultra"]
+      }
+    }
+  },
+  "product-highlight-text#revanesseUltra": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 4 unidades por Apenas R$ 899,00 cada</small><small>5 a 9 unidades por Apenas R$ 859,00 cada</small><small>Acima de 10 unidades por Apenas R$ 829,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Revanesse Kiss
+  "vtex.product-highlights@2.x:product-highlights#revanesseKiss": {
+    "children": ["product-highlight-text#revanesseKiss"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Revanesse Kiss"]
+      }
+    }
+  },
+  "product-highlight-text#revanesseKiss": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 4 unidades por Apenas R$ 899,00 cada</small><small>5 a 9 unidades por Apenas R$ 859,00 cada</small><small>Acima de 10 unidades por Apenas R$ 829,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Revanesse Contour
+  "vtex.product-highlights@2.x:product-highlights#revanesseContour": {
+    "children": ["product-highlight-text#revanesseContour"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Revanesse Contour"]
+      }
+    }
+  },
+  "product-highlight-text#revanesseContour": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 4 unidades por Apenas R$ 899,00 cada</small><small>5 a 9 unidades por Apenas R$ 859,00 cada</small><small>Acima de 10 unidades por Apenas R$ 829,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Botulift 50U
+  "vtex.product-highlights@2.x:product-highlights#botulift50U": {
+    "children": ["product-highlight-text#botulift50U"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Botulift 50U"]
+      }
+    }
+  },
+  "product-highlight-text#botulift50U": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 498,00 cada</small><small>Acima de 6 unidades por Apenas R$ 478,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Botulift 100U
+  "vtex.product-highlights@2.x:product-highlights#botulift100U": {
+    "children": ["product-highlight-text#botulift100U"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Botulift 100U"]
+      }
+    }
+  },
+  "product-highlight-text#botulift100U": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 791,00 cada</small><small>Acima de 6 unidades por Apenas R$ 746,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Botulift 150U
+  "vtex.product-highlights@2.x:product-highlights#botulift150U": {
+    "children": ["product-highlight-text#botulift150U"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Botulift 150U"]
+      }
+    }
+  },
+  "product-highlight-text#botulift150U": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 1020,00 cada</small><small>Acima de 6 unidades por Apenas R$ 960,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. Botulift 200U
+  "vtex.product-highlights@2.x:product-highlights#botulift200U": {
+    "children": ["product-highlight-text#botulift200U"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. Botulift 200U"]
+      }
+    }
+  },
+  "product-highlight-text#botulift200U": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 5 unidades por Apenas R$ 1273,00 cada</small><small>Acima de 6 unidades por Apenas R$ 1205,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 03. AestheFill 200mg
+  "vtex.product-highlights@2.x:product-highlights#aestheFill": {
+    "children": ["product-highlight-text#aestheFill"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["03. AestheFill 200mg"]
+      }
+    }
+  },
+  "product-highlight-text#aestheFill": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe Mais Descontos</p><small>1 a 2 unidades por Apenas R$ 1090,00 cada</small><small>3 a 5 unidades por Apenas R$ 1070,00 cada</small><small>6 a 11 unidades por Apenas R$ 1050,00 cada</small><small>Acima de 12 unidades por Apenas R$ 1000,00 cada</small></popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 00. 3M - Máscara Hospitalar Dobrável PFF2 9920H
+  "vtex.product-highlights@2.x:product-highlights#mascaraHospitalar": {
+    "children": ["product-highlight-text#mascaraHospitalar"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["00. 3M - Máscara Hospitalar Dobrável PFF2 9920H"]
+      }
+    }
+  },
+  "product-highlight-text#mascaraHospitalar": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Para melhor atender nossos clientes, este produto está limitado a 20 unidades por cliente</popup><seal>Confira a Regra</seal>",
+      "blockClass": "highlights-purpleDark"
+    }
+  },
+
+  // 00. 3M - Máscara Aura 9320
+  "vtex.product-highlights@2.x:product-highlights#mascaraAura": {
+    "children": ["product-highlight-text#mascaraAura"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["00. 3M - Máscara Aura 9320"]
+      }
+    }
+  },
+  "product-highlight-text#mascaraAura": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Para melhor atender nossos clientes, este produto está limitado a 20 unidades por cliente</popup><seal>Confira a Regra</seal>",
+      "blockClass": "highlights-purpleDark"
+    }
+  },
+
+  // 00. DENTALSHOP - Promoção Luvas Látex
+  "vtex.product-highlights@2.x:product-highlights#promocaoLuvas": {
+    "children": ["product-highlight-text#promocaoLuvas"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["00. DENTALSHOP - Promoção Luvas Látex"]
+      }
+    }
+  },
+  "product-highlight-text#promocaoLuvas": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre acima de R$ 800,00 em produtos*</p><p>Pague apenas R$ 29,90 cada</p><small>*Exceto luvas, anestésicos, toxina e soros</small><small>Limite de 10 unidades</small></popup><seal>Confira a Regra</seal>",
+      "blockClass": "highlights-purpleDark"
+    }
+  },
+
+  // 01. AMERICAN BURRS - Lixa de Aço Oxistripe
+  "vtex.product-highlights@2.x:product-highlights#americanBurrs": {
+    "children": ["product-highlight-text#americanBurrs"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. AMERICAN BURRS - Lixa de Aço Oxistripe"]
+      }
+    }
+  },
+  "product-highlight-text#americanBurrs": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 10 unidades e Ganhe mais 2 Lixas de Aço Oxistripe a sua escolha</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. COLGATE - Creme Dental e Enxaguante Periogard
+  "vtex.product-highlights@2.x:product-highlights#colgateCremeDental": {
+    "children": ["product-highlight-text#colgateCremeDental"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. COLGATE - Creme Dental e Enxaguante Periogard"]
+      }
+    }
+  },
+  "product-highlight-text#colgateCremeDental": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 10 Creme Dental Total 12 Gengiva Reforçada e mais 10 Enxaguante Bucal Periogard Hortelã 60ml</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Acima de R$249 Ganhe 3 Resina Neo Spectra
+  "vtex.product-highlights@2.x:product-highlights#dentsplySirona": {
+    "children": ["product-highlight-text#dentsplySirona"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Acima de R$249 Ganhe 3 Resina Neo Spectra"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplySirona": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre acima de R$ 249,00 em produtos Dentsply Sirona e Ganhe 3 Resina Neo Spectra</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. ULTRADENT - Kit Resina Forma
+  "vtex.product-highlights@2.x:product-highlights#ultradentKitResina": {
+    "children": ["product-highlight-text#ultradentKitResina"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. ULTRADENT - Kit Resina Forma"]
+      }
+    }
+  },
+  "product-highlight-text#ultradentKitResina": {
+    "props": {
+      "markers": [
+        "popup",
+        "p",
+        "small",
+        "seal"
+      ],
+      "message": "<popup><p>Compre e Ganhe</p><small>1 Selante Permaseal - Ultradent</small><small>1 Umidificador Composite Wetting Resin</small><small>1 Polidor Jiffy Polisher Taça Sortido</small></popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. YLLER -  Yprov Bisacryl
+  "vtex.product-highlights@2.x:product-highlights#yllerYprov": {
+    "children": ["product-highlight-text#yllerYprov"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. YLLER -  Yprov Bisacryl"]
+      }
+    }
+  },
+  "product-highlight-text#yllerYprov": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 3 unidades e Pague apenas R$ 212,66 cada</popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 01. YLLER -  Kit Reflex
+  "vtex.product-highlights@2.x:product-highlights#yllerKitReflex": {
+    "children": ["product-highlight-text#yllerKitReflex"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. YLLER -  Kit Reflex"]
+      }
+    }
+  },
+  "product-highlight-text#yllerKitReflex": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 3 unidades e Pague apenas R$ 99,33 cada</popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 01. YLLER -  Ybond Mono
+  "vtex.product-highlights@2.x:product-highlights#yllerYbond": {
+    "children": ["product-highlight-text#yllerYbond"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. YLLER -  Ybond Mono"]
+      }
+    }
+  },
+  "product-highlight-text#yllerYbond": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Adesivo Ybond Mono de 5ml</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01.  ZHERMACK - Alginato Orthoprint
+  "vtex.product-highlights@2.x:product-highlights#zhermackAlginato": {
+    "children": ["product-highlight-text#zhermackAlginato"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01.   ZHERMACK - Alginato Orthoprint"]
+      }
+    }
+  },
+  "product-highlight-text#zhermackAlginato": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Cuba de Borracha</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // Mega Mês da Economia
+  "vtex.product-highlights@2.x:product-highlights#megaMesEconomia": {
+    "children": ["product-highlight-text#megaMesEconomia"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Mega Mês da Economia"]
+      }
+    }
+  },
+  "product-highlight-text#megaMesEconomia": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Um Multiverso de Descontos. Vem ECONOMIZAR!</popup><seal>Mega Mês da Economia</seal>",
+      "blockClass": "highlights-purple"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Alginato Avagel
+  "vtex.product-highlights@2.x:product-highlights#dentsplySironaAlginatoAvagel": {
+    "children": ["product-highlight-text#dentsplySironaAlginatoAvagel"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Alginato Avagel"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplySironaAlginatoAvagel": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Alginato Avagel Tipo II 20,5g</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DENTSPLY SIRONA - Alginato Jeltrate Dustless
+  "vtex.product-highlights@2.x:product-highlights#dentsplySironaAlginatoJeltrate": {
+    "children": ["product-highlight-text#dentsplySironaAlginatoJeltrate"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DENTSPLY SIRONA - Alginato Jeltrate + Medidor"]
+      }
+    }
+  },
+  "product-highlight-text#dentsplySironaAlginatoJeltrate": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Conjunto Medidor de Alginato Jeltrate e mais 10 Alginato Jeltrate Dustless Tipo II 20,5g</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. DFL - Clareador Total Blanc Home C 16%
+  "vtex.product-highlights@2.x:product-highlights#clareadorTotalBlanc16": {
+    "children": ["product-highlight-text#clareadorTotalBlanc16"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. DFL - Clareador Total Blanc Home C 16%"]
+      }
+    }
+  },
+  "product-highlight-text#clareadorTotalBlanc16": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Clareador Total Blanc 16%</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. FGM - Adesivo Ambar 4ml
+  "vtex.product-highlights@2.x:product-highlights#fgmAdesivoAmbar": {
+    "children": ["product-highlight-text#fgmAdesivoAmbar"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. FGM - Adesivo Ambar 4ml"]
+      }
+    }
+  },
+  "product-highlight-text#fgmAdesivoAmbar": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Adesivo Ambar 4ml</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. FGM - Clareador Whiteness Simple 22% com 3 Seringas
+  "vtex.product-highlights@2.x:product-highlights#fgmClareadorWhiteness22": {
+    "children": ["product-highlight-text#fgmClareadorWhiteness22"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. FGM - Clareador Whiteness Simple 22% com 3 Seringas"]
+      }
+    }
+  },
+  "product-highlight-text#fgmClareadorWhiteness22": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 3 Seringas Whiteness Simple 22%</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. FGM - Resina LLIS
+  "vtex.product-highlights@2.x:product-highlights#fgmResinaLlis": {
+    "children": ["product-highlight-text#fgmResinaLlis"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. FGM - Resina LLIS"]
+      }
+    }
+  },
+  "product-highlight-text#fgmResinaLlis": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 3 unidades e Pague apenas R$ 24,90 cada</popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 01. FGM - Top Comfort
+  "vtex.product-highlights@2.x:product-highlights#fgmTopComfort": {
+    "children": ["product-highlight-text#fgmTopComfort"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. FGM - Top Comfort"]
+      }
+    }
+  },
+  "product-highlight-text#fgmTopComfort": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Protetor de Bráquetes Top Comfort</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. KG SORENSEN - Pontas Diamantadas
+  "vtex.product-highlights@2.x:product-highlights#KgPontasDiamantadas": {
+    "children": ["product-highlight-text#KgPontasDiamantadas"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. KG SORENSEN - Pontas Diamantadas"]
+      }
+    }
+  },
+  "product-highlight-text#KgPontasDiamantadas": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 25 Pontas Diamantadas KG Sorensen</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. KULZER - Charisma Diamond
+  "vtex.product-highlights@2.x:product-highlights#KulzerCharismaDiamond": {
+    "children": ["product-highlight-text#KulzerCharismaDiamond"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. KULZER - Charisma Diamond"]
+      }
+    }
+  },
+  "product-highlight-text#KulzerCharismaDiamond": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Resina Charisma Diamond One Sample</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. KULZER - Escala de Cor Charisma Diamond
+  "vtex.product-highlights@2.x:product-highlights#KulzerEscalaCor": {
+    "children": ["product-highlight-text#KulzerEscalaCor"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. KULZER - Escala de Cor Charisma Diamond"]
+      }
+    }
+  },
+  "product-highlight-text#KulzerEscalaCor": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 10 unidades e Ganhe 1 Escala de Cor Charisma Diamond</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. KULZER - Gluma Etch 35%
+  "vtex.product-highlights@2.x:product-highlights#KulzerGluma": {
+    "children": ["product-highlight-text#KulzerGluma"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. KULZER - Gluma Etch 35%"]
+      }
+    }
+  },
+  "product-highlight-text#KulzerGluma": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Condicionador Ácido Fosfórico Gluma Etch 35% - Kulzer com  3 seringas</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. KULZER - R$599 - Porta Resina
+  "vtex.product-highlights@2.x:product-highlights#KulzerPortaResina": {
+    "children": ["product-highlight-text#KulzerPortaResina"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. KULZER - R$599 - Porta Resina"]
+      }
+    }
+  },
+  "product-highlight-text#KulzerPortaResina": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre acima de R$ 599,00 em produtos Kulzer e Ganhe 1 Porta Resina</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. ORTHOMETRIC - R$ 199 - Chaveiro Dentástico
+  "vtex.product-highlights@2.x:product-highlights#OrthometricChaveiro": {
+    "children": ["product-highlight-text#OrthometricChaveiro"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. ORTHOMETRIC - R$ 199 - Chaveiro Dentástico"]
+      }
+    }
+  },
+  "product-highlight-text#OrthometricChaveiro": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre acima de R$ 99,00 em produtos Orthometric e Ganhe 1 Chaveiro Dentástico</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. ULTRADENT - Opalescence Boost
+  "vtex.product-highlights@2.x:product-highlights#UltradentOpalescence": {
+    "children": ["product-highlight-text#UltradentOpalescence"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. ULTRADENT - Opalescence Boost"]
+      }
+    }
+  },
+  "product-highlight-text#UltradentOpalescence": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Clareador Opalescence PF 35% de 3g</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. ULTRADENT - Resina Forma
+  "vtex.product-highlights@2.x:product-highlights#UltradentResinaForma": {
+    "children": ["product-highlight-text#UltradentResinaForma"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. ULTRADENT - Resina Forma"]
+      }
+    }
+  },
+  "product-highlight-text#UltradentResinaForma": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre a partir de 5 unidades e Pague apenas R$ 95,20 cada</popup><seal>Leve + Pague -</seal>",
+      "blockClass": "highlights-purpleLight"
+    }
+  },
+
+  // 01. ULTRADENT - Ultra Etch 35% e Peak Bond
+  "vtex.product-highlights@2.x:product-highlights#UltradentEtch35": {
+    "children": ["product-highlight-text#UltradentEtch35"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. ULTRADENT - Ultra Etch 35% e Peak Bond"]
+      }
+    }
+  },
+  "product-highlight-text#UltradentEtch35": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Condicionador Ácido Fosfórico Ultra Etch 35% + Adesivo Peak Universal Bond</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. ULTRADENT - ViscoStat Clear
+  "vtex.product-highlights@2.x:product-highlights#UltradentViscoClear": {
+    "children": ["product-highlight-text#UltradentViscoClear"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. ULTRADENT - ViscoStat Clear"]
+      }
+    }
+  },
+  "product-highlight-text#UltradentViscoClear": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Solução Hemostática ViscoStat Clear Indispense Refill</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 00. DENTALSHOP - Luvas Limite de 20 Unidades
+  "vtex.product-highlights@2.x:product-highlights#LuvasLimite20": {
+    "children": ["product-highlight-text#LuvasLimite20"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["00. DENTALSHOP - Luvas Limite de 20 Unidades"]
+      }
+    }
+  },
+  "product-highlight-text#LuvasLimite20": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Para melhor atender nossos clientes, este produto está limitado a 20 unidades por cliente</popup><seal>Limite de 20 unidades</seal>",
+      "blockClass": "highlights-purpleDark"
+    }
+  },
+
+  // 01. KULZER - Resina Charisma
+  "vtex.product-highlights@2.x:product-highlights#kulzerResinaCharisma": {
+    "children": ["product-highlight-text#kulzerResinaCharisma"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. KULZER - Resina Charisma"]
+      }
+    }
+  },
+  "product-highlight-text#kulzerResinaCharisma": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre 5 unidades e Ganhe 5 Condicionador Ácido Fosfórico Gluma Etch 35%</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // 01. COLGATE - Verniz Duraphat
+  "vtex.product-highlights@2.x:product-highlights#colgateVernizDuraphat": {
+    "children": ["product-highlight-text#colgateVernizDuraphat"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["01. COLGATE - Verniz Duraphat"]
+      }
+    }
+  },
+  "product-highlight-text#colgateVernizDuraphat": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Compre e Ganhe 1 Manequim Macro Boca - Colgate</popup><seal>Ganhe Brinde</seal>",
+      "blockClass": "highlights-blue"
+    }
+  },
+
+  // Produtos 3M
+  "vtex.product-highlights@2.x:product-highlights#produtos3M": {
+    "children": ["product-highlight-text#produtos3M"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Produtos 3M"]
+      }
+    }
+  },
+  "product-highlight-text#produtos3M": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Até 50% OFF</popup><seal>Mega Week 3M</seal>",
+      "blockClass": "highlights-blueDark"
+    }
+  },
+
+  // Mega Week American Burrs
+  "vtex.product-highlights@2.x:product-highlights#megaWeekAmericanBurrs": {
+    "children": ["product-highlight-text#megaWeekAmericanBurrs"],
+    "props": {
+      "blockClass": "highlights",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Mega Week American Burrs"]
+      }
+    }
+  },
+  "product-highlight-text#megaWeekAmericanBurrs": {
+    "props": {
+      "markers": [
+        "popup",
+        "seal"
+      ],
+      "message": "<popup>Aproveite essa semana de ofertas imperdíveis em toda linha de produtos American Burrs!</popup><seal>Mega Week American Burrs</seal>",
+      "blockClass": "highlights-blueDark"
+    }
+  }
+
+}

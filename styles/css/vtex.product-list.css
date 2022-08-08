@@ -1,0 +1,15 @@
+.productImage{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    max-height: 110px;
+}
+.productBrandName{
+    display: none
+}
+.price{
+    font-weight: bold;
+}
+.quantitySelector--gift {
+    display: none;
+}

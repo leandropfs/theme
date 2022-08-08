@@ -1,0 +1,51 @@
+.listPrice {
+  font-size: .9rem;
+  color: var(--grayLight);
+  padding-right: .5rem;
+}
+
+.savings{
+  font-size: .9rem;
+  font-weight: bold;
+  color: #000;
+  text-transform: lowercase;
+}
+.currencyCode{
+  text-transform: uppercase;
+}
+
+.sellingPrice {
+  color: var(--colorSecondary);
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Installments */
+.installments {
+  display: block;
+  font-size: 0;
+  color: #000;
+  padding: .25rem 0 .75rem;
+}
+.installmentsNumber,
+.installmentValue{
+  font-size: .9rem;
+}
+.installmentsNumber::after{
+  content: "x de ";
+}
+
+/* Summary */
+.savings--summary {
+  font-size: .8rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: var(--colorSecondary);
+  border-radius: var(--radius);
+  padding: .1rem .5rem;
+}
+.installments--summary{
+  margin: 0;
+  padding: .25rem 0;
+}

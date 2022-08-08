@@ -1,0 +1,69 @@
+{
+    "name": "Selos",
+    "title": "Selos",
+    "tables": [
+        {
+            "id": "main",
+            "title": "Selos",
+            "entity": "seals",
+            "model": "v1",
+            "fields": {
+					"id": {
+                    "label": "Id",
+					"width": 100
+                },
+                "order": {
+                    "label": "Prioridade",
+                    "width": 100
+                },
+                "title": {
+                    "label": "Título",
+                    "width": 300
+                },
+                "ref": {
+                    "label": "Id da coleção/promoção",
+                    "width": 200
+                },
+                "tooltip": {
+                    "label": "Descrição",
+                    "width": 500,
+                    "multiLine":true
+                },
+                "color": {
+                    "label": "Cor",
+                    "width": 200,
+                    "enum": [
+                        "purple - #8300d1",
+                        "purpleLight - #a875e0",
+                        "purpleDark - #50137c",
+                        "blue - #6d6efd",
+                        "blueDark - #151d3e"
+                    ]
+                }
+            },
+            "list": [
+                "order",
+                "title",
+                "tooltip",
+                "color",
+                "ref"
+            ],
+            "editor": {
+                "settings": {
+                    "sections": [
+                        {
+                            "name": "Selos",
+                            "fields": [
+                                "order",
+                                "title",
+                                "ref",
+                                "tooltip",
+                                "color"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

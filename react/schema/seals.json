@@ -1,0 +1,36 @@
+{
+    "title": "seals",
+    "type": "object",
+    "properties": {
+        "order": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 999,
+            "title": "Prioridade",
+            "description": "Quanto maior o número, maior a prioridade"
+        },
+        "title": {
+            "type": "string",
+            "title": "Título"
+        },
+        "ref": {
+            "type": "string",
+            "title": "Id da coleção/promoção"
+        },
+        "tooltip": {
+            "type": "string",
+            "title": "Descrição"
+        },
+        "color": {
+            "type": "string",
+            "title": "Cor"
+        }
+    },
+    "required": ["order", "title", "ref", "tooltip", "color"],
+    "v-security": {
+        "publicJsonSchema": true,
+        "allowGetAll": true,
+        "publicRead": ["order", "title", "ref", "tooltip", "color"],
+        "publicFilter": ["order", "title", "ref", "tooltip", "color"]
+    }
+}

@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#newsletter-title",
+      "flex-layout.col#newsletter-form",
+      "flex-layout.col#newsletter-social"
+    ],
+    "props": {
+      "blockClass": "footer-newsletter",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#newsletter-title": {
+    "children": [
+      "rich-text#newsletter-title"
+    ],
+    "props": {
+      "blockClass": "newsletter-title",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#newsletter-form": {
+    "children": [
+      "newsletter-form"
+    ],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#newsletter-social": {
+    "children": [
+      "social-networks"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "text": "## Se conecte com a gente!\n### Receba ofertas e novidades **preços exclusivos**\n[+ política de privacidade](/politica-de-privacidade)",
+      "blockClass": "newsletter-title"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "seu nome"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "seu e-mail"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Enviar"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "title": "Redes Sociais",
+      "socialNetworks": [
+        {
+          "name": "linkedin",
+          "url": "https://br.linkedin.com/company/dentalshopbrasil"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/dentalshopbrasil"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/dentalshopbrasil"
+        }
+      ]
+    }
+  }
+}
